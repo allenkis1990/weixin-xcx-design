@@ -1,0 +1,23 @@
+<!--测验-测验详情-->
+<view class="contain exam-enter-panel">
+    <view class="p50">
+        <image class="exam-img" src="/images/exam-enter-icon.png" alt=" " />
+        <view class="exam-name">显示课后测验的课程名称+课后测验</view>
+        <view class="exam-info">
+            <view class="exam-info-items">
+                <view class="ico">
+                    <image class="img" src="/images/exam-time.png" alt=" " />
+                </view>
+                <text>测验时长：60分钟</text>
+            </view>
+            <view class="exam-info-items">
+                <view class="ico">
+                    <image class="img" src="/images/exam-num.png" alt=" " />
+                </view>
+                <text>测验剩余次数：3次</text>
+            </view>
+        </view>
+        <view class="btn-full">进入测验</view>
+    </view>
+</view>
+

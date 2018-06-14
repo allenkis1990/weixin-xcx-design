@@ -1,0 +1,33 @@
+<!--选课-切换课程包-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <!--课程包选择-->
+        <view class="hb-year-box">
+            <view class="year-tit year-tit-1">当前课程包</view>
+            <view class="year-bd year-bd-1">
+                <!--选课未达标 添加warning-bg-->
+                <view class="course-bag-name">我是课程包名称全称全称全称</view>
+            </view>
+            <view class="change-label open">
+                <view class="arrow"></view>
+                <view class="dot"></view>
+            </view>
+        </view>
+        <!--/课程包选择-->
+
+        <!--课程包展开-->
+        <view class="select-box">
+            <view class="select-mask"></view>
+            <view class="select-panel">
+                <view class="select-bd">
+                    <view class="items"><view class="txt">我是课程包名称全称全称全称1</view></view>
+                    <view class="items current"><view class="txt">我是课程包名称全称全称全称2</view></view>
+                    <view class="items"><view class="txt">我是课程包名称全称全称全称3</view></view>
+                    <view class="items"><view class="txt">我是课程包名称全称全称全称4</view></view>
+                </view>
+            </view>
+        </view>
+        <!--/课程包展开-->
+    </view>
+
+</view>

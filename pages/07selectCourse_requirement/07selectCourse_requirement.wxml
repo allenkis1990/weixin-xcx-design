@@ -1,0 +1,21 @@
+<!--选课要求-->
+<view class="contain">
+    <view class="hd-dialog">
+        <view class="weui-mask"></view>
+        <view class="weui-dialog">
+            <view class="weui-dialog__hd"><view class="weui-dialog__title">选课要求</view></view>
+            <view class="weui-dialog__bd tl">
+                <view class="txt">本次培训要求，整体课程学时须>=X学时。其中必修课程=X学时，选课学时=X学时。选课学时要求分布如下：</view>
+                <view class="txt">1、选修课程包名称1：需选X学时；</view>
+                <view class="txt">2、选修课程包名称2：需选X学时；</view>
+                <view class="txt">3、选修课程包名称3：需选X学时；</view>
+                <view class="txt mt30 ci">未达标选课课程包</view>
+                <view class="txt">1、选修课程包名称2：需选X学时，还需选X学时；</view>
+                <view class="txt">2、选修课程包名称3：需选X学时，还需选X学时；</view>
+            </view>
+            <view class="weui-dialog__ft">
+                <view class="weui-dialog__btn weui-dialog__btn_primary">确定</view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,88 @@
+<!--报名清单-交易关闭-->
+<view class="contain">
+    <!--tab-->
+    <view class="hb-tab-tit">
+        <view class="tab-tit-items">
+            <text class="items-name">未支付</text>
+            <image class="current-img" src="/images/tab-current-bg.jpg" />
+        </view>
+        <view class="tab-tit-items">
+            <text class="items-name">已支付</text>
+            <image class="current-img" src="/images/tab-current-bg.jpg" />
+        </view>
+        <view class="tab-tit-items current">
+            <text class="items-name">交易关闭</text>
+            <image class="current-img" src="/images/tab-current-bg.jpg" />
+        </view>
+    </view>
+    <!--/tab-->
+
+    <view class="hb-wrap-box hb-wrap-box-2">
+        <scroll-view>
+            <view class="weui-panel hb-panel bor-b20">
+                <view class="order-info-box">
+                    <view>2016-12-12 09:23</view>
+                    <view class="tr-2">订单号：358956235412358</view>
+                </view>
+                <view class="hb-media-box hb-media-box-1">
+                    <view class="hb-media-box-hd">
+                        <image class="hb-media-box-thumb" src="/images/course-img.jpg" />
+                    </view>
+                    <view class="hb-media-box-bd">
+                        <view class="hb-media-box-title">这里是一个培训班名称这里是一个培训班名称</view>
+                        <view class="hb-media-box-desc">年度：2017年</view>
+                        <view class="hb-media-box-desc">科目：专业课</view>
+                        <view class="hb-media-box-desc">学时：30</view>
+                    </view>
+                    <view class="price">￥<text class="num">39.99</text></view>
+                </view>
+                <view class="order-info-box">
+                    <view>订单状态：<text class="ci">交易关闭</text></view>
+                    <view>总价<text class="ml10 ci fs32">¥ 30</text> </view>
+                </view>
+            </view>
+            <view class="weui-panel hb-panel bor-b20">
+                <view class="order-info-box">
+                    <view>2016-12-12 09:23</view>
+                    <view class="tr-2">订单号：358956235412358</view>
+                </view>
+                <view class="hb-media-box hb-media-box-1">
+                    <view class="hb-media-box-hd">
+                        <image class="hb-media-box-thumb" src="/images/course-img.jpg" />
+                    </view>
+                    <view class="hb-media-box-bd">
+                        <view class="hb-media-box-title">这里是一个培训班名称这里是一个培训班名称</view>
+                        <view class="hb-media-box-desc">年度：2017年</view>
+                        <view class="hb-media-box-desc">科目：专业课</view>
+                        <view class="hb-media-box-desc">学时：30</view>
+                    </view>
+                    <view class="price">￥<text class="num">39.99</text></view>
+                </view>
+                <view class="hb-media-box hb-media-box-1">
+                    <view class="hb-media-box-hd">
+                        <image class="hb-media-box-thumb" src="/images/course-img.jpg" />
+                    </view>
+                    <view class="hb-media-box-bd">
+                        <view class="hb-media-box-title">这里是一个培训班名称这里是一个培训班名称</view>
+                        <view class="hb-media-box-desc">年度：2017年</view>
+                        <view class="hb-media-box-desc">科目：专业课</view>
+                        <view class="hb-media-box-desc">学时：30</view>
+                    </view>
+                    <view class="price">￥<text class="num">39.99</text></view>
+                </view>
+                <view class="order-info-box">
+                    <view>订单状态：<text class="ci">交易关闭</text></view>
+                    <view>总价<text class="ml10 ci fs32">¥ 30</text> </view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+
+    <!--返回顶部-->
+    <view class="layer-box">
+        <view class="a-items">
+            <image class="img" src="/images/icon-top.png" alt=" " />
+        </view>
+    </view>
+    <!--/返回顶部-->
+</view>

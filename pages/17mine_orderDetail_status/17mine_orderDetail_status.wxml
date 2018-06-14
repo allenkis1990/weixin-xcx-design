@@ -1,0 +1,36 @@
+<!--更多状态-->
+<view class="contain">
+    <view class="hb-timeline-box bor-b20">
+        <view class="hb-timeline">
+            <view class="timeline-items">
+                <view  class="hb-ico"><image class="img" src="/images/record-success.png" /></view>
+                <view class="items-bd">
+                    <view class="items-info">交易成功</view>
+                    <view class="sub-info">2017-12-12  09:23</view>
+                </view>
+            </view>
+            <view class="timeline-items">
+                <view  class="hb-ico"><image class="img" src="/images/record-paid.png" /></view>
+                <view class="items-bd">
+                    <view class="items-info">已发货</view>
+                    <view class="sub-info">2017-12-12  09:23</view>
+                </view>
+            </view>
+            <view class="timeline-items">
+                <view  class="hb-ico"><image class="img" src="/images/record-send.png" /></view>
+                <view class="items-bd">
+                    <view class="items-info">已付款</view>
+                    <view class="sub-info">2017-12-12  09:23</view>
+                </view>
+            </view>
+            <view class="timeline-items">
+                <view  class="hb-ico"><image class="img" src="/images/record-submit.png" /></view>
+                <view class="items-bd">
+                    <view class="items-info">订单提交成功</view>
+                    <view class="sub-info">2017-12-12  09:23</view>
+                    <view class="sub-info">订单号：235436546547657</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

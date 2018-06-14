@@ -1,0 +1,56 @@
+<!--购物车-确认订单班级列表-->
+<!--购物车-->
+<view class="contain">
+    <!--班级列表-->
+    <view class="hb-wrap-box hb-wrap-box-4">
+        <view class="hb-panel">
+            <scroll-view class="hb-panel-bd">
+                <view class="hb-media-box">
+                    <view class="hb-media-box-hd">
+                        <image class="hb-media-box-thumb" src="/images/course-img.jpg" />
+                    </view>
+                    <view class="hb-media-box-bd">
+                        <view class="hb-media-box-title">这里是一个培训班名称这里是一个培训班名称</view>
+                        <view class="hb-media-box-desc">科目：专业课 <text class="ml30">年度：2017年</text></view>
+                        <view class="hb-media-box-desc">学习形式：培训班学习</view>
+                        <view class="hb-media-box-desc">学时：30</view>
+                    </view>
+                    <view class="price">￥<text class="num">39.99</text></view>
+                </view>
+                <view class="hb-media-box">
+                    <view class="hb-media-box-hd">
+                        <image class="hb-media-box-thumb" src="/images/course-img.jpg" />
+                    </view>
+                    <view class="hb-media-box-bd">
+                        <view class="hb-media-box-title">这里是一个培训班名称这里是一个培训班名称</view>
+                        <view class="hb-media-box-desc">科目：专业课 <text class="ml30">年度：2017年</text></view>
+                        <view class="hb-media-box-desc">学习形式：培训班学习</view>
+                        <view class="hb-media-box-desc">学时：30</view>
+                    </view>
+                    <view class="price">￥<text class="num">39.99</text></view>
+                </view>
+                <view class="hb-media-box">
+                    <view class="hb-media-box-hd">
+                        <image class="hb-media-box-thumb" src="/images/course-img.jpg" />
+                    </view>
+                    <view class="hb-media-box-bd">
+                        <view class="hb-media-box-title">这里是一个培训班名称这里是一个培训班名称</view>
+                        <view class="hb-media-box-desc">科目：公需课 <text class="ml30">年度：2017年</text></view>
+                        <view class="hb-media-box-desc">学习形式：培训班学习</view>
+                        <view class="hb-media-box-desc">学时：30</view>
+                    </view>
+                    <view class="price">￥<text class="num">39.99</text></view>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+    <!--/班级列表-->
+
+    <!--返回顶部-->
+    <view class="layer-box">
+        <view class="a-items">
+            <image class="img" src="/images/icon-top.png" alt=" " />
+        </view>
+    </view>
+    <!--/返回顶部-->
+</view>

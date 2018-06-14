@@ -1,0 +1,103 @@
+<!--培训班详情-测验-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <view class="view-pos">
+            <view class="course-detail-hd">
+                <view class="course-detail-img">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+                <view class="year-label-box">
+                    <image class="img" src="/images/year-label.png" alt=" " />
+                    <text class="year-label">2017</text>
+                </view>
+                <view class="seal"><image class="img" src="/images/seal-pass.png" alt=" " /></view>
+                <view class="course-info">
+                    <image class="mask" src="/images/course-img-mask.png" alt=" " />
+                    <view class="course-name">我是一个培训班的名称</view>
+                    <view class="inspection-situation"><image class="img" src="/images/icon-test-intro.png" alt=" " />考核情况</view>
+                </view>
+            </view>
+            <view class="course-detail-tab">
+                <view class="tab-items">
+                    <view class="ico">
+                        <image class="img" src="/images/course-tab-course.png" alt=" " />
+                        <!--<image class="img" src="/images/course-tab-course-current.png" alt=" " />-->
+                    </view>
+                    <view class="txt">
+                        <view>课程</view>
+                        <view class="sub">已学80%</view>
+                    </view>
+                    <image class="current-bg" src="/images/tab-current-bg.jpg" alt=" " />
+                </view>
+                <view class="tab-items current">
+                    <view class="ico">
+                        <!--<image class="img" src="/images/course-tab-exam.png" alt=" " />-->
+                        <image class="img" src="/images/course-tab-exam-current.png" alt=" " />
+                    </view>
+                    <view class="txt">
+                        <view>测验模块</view>
+                        <view class="sub">已得80分</view>
+                    </view>
+                    <image class="current-bg" src="/images/tab-current-bg.jpg" alt=" " />
+                </view>
+                <view class="tab-items">
+                    <view class="ico">
+                        <image class="img" src="/images/course-tab-like.png" alt=" " />
+                        <!--<image class="img" src="/images/course-tab-like-current.png" alt=" " />-->
+                    </view>
+                    <view class="txt">
+                        <view>兴趣课程</view>
+                        <view class="sub">已学3门</view>
+                    </view>
+                    <image class="current-bg" src="/images/tab-current-bg.jpg" alt=" " />
+                </view>
+            </view>
+        </view>
+        <view class="course-detail-tab-bd b0">
+            <view class="block-box fs30">考试</view>
+            <view class="course-detail-exam-info block-box">
+                <view class="fs30 to">我是这次考试试卷的名称名称名称</view>
+                <view class="info-bd">
+                    <view>考试达标要求：成绩>=60分</view>
+                    <view>剩余考试次数：<text class="ci">1</text>次/<text class="ci">不限</text></view>
+                    <view>考试时长：<text class="ci">60</text>分钟</view>
+                    <view>考试最高分：<text class="ci">99</text>分</view>
+                </view>
+                <view class="seal"><image class="img" src="/images/seal-exam-g.png" alt=" " /></view>
+            </view>
+            <view class="block-box bor-b20">
+                <view class="exam-enter-box">
+                    <view class="exam-enter">
+                        <view class="ico">
+                            <image class="img" src="/images/icon-exam-enter.png" alt=" " />
+                        </view>
+                        <view>进入考试</view>
+                    </view>
+                    <view class="exam-enter">
+                        <view class="ico">
+                            <image class="img" src="/images/icon-exam-history.png" alt=" " />
+                        </view>
+                        <view>历史考试记录</view>
+                    </view>
+                </view>
+            </view>
+            <view class="block-box fs30">练习</view>
+            <view class="block-box">
+                <view class="exam-enter-box">
+                    <view class="exam-enter">
+                        <view class="ico">
+                            <image class="img" src="/images/icon-test-enter.png" alt=" " />
+                        </view>
+                        <view>做练习</view>
+                    </view>
+                    <view class="exam-enter">
+                        <view class="ico">
+                            <image class="img" src="/images/icon-test-history.png" alt=" " />
+                        </view>
+                        <view>历史练习试题</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

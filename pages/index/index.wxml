@@ -1,0 +1,147 @@
+
+<view class="contain">
+   <navigator url="/pages/01noLogin/01noLogin"><text class='txt'>01-未关联页面</text></navigator>
+  <navigator url="/pages/02login/02login"><text class='txt'>02-登录</text></navigator>
+  <navigator url="/pages/03registered/03registered"><text class='txt'>03-注册</text></navigator>
+  <navigator url="/pages/04forgetPassword/04forgetPassword"><text class='txt'>04-忘记密码</text></navigator>
+  <navigator url="/pages/04setPassword/04setPassword"><text class='txt'>04-设置新密码</text></navigator>
+  <view class='bor-t'></view>
+  <navigator url="/pages/05myLearning_class/05myLearning_class"><text class='txt'>05-我的学习-培训班学习</text></navigator>
+  <navigator url="/pages/05myLearning_course/05myLearning_course"><text class='txt'>05-我的学习-自主选课学习</text></navigator>
+  <navigator url="/pages/05myLearning_empty/05myLearning_empty"><text class='txt'>05-我的学习-空数据</text></navigator>
+  <view class='bor-t'></view>
+  <navigator url="/pages/06classDetail_course/06classDetail_course"><text class='txt'>06-培训班详情-课程</text></navigator>
+  <navigator url="/pages/06classDetail_test/06classDetail_test"><text class='txt'>06-培训班详情-测验</text></navigator>
+  <navigator url="/pages/06classDetail_interest/06classDetail_interest"><text class='txt'>06-培训班详情-兴趣课程</text></navigator>
+  <navigator url="/pages/06classDetail_situation/06classDetail_situation"><text class='txt'>06-培训班详情-考核情况</text></navigator>
+  <view class='bor-t'></view>
+  <navigator url="/pages/07selectCourse_class/07selectCourse_class"><text class='txt'>07-选课-培训班</text></navigator>
+  <navigator url="/pages/07selectCourse_interest/07selectCourse_interest"><text class='txt'>07-选课-兴趣课程</text></navigator>
+  <navigator url="/pages/07selectCourse_change/07selectCourse_change"><text class='txt'>07-选课-课程包切换</text></navigator>
+  <navigator url="/pages/07selectCourse_interestChange/07selectCourse_interestChange"><text class='txt'>07-选课-兴趣课程包切换</text></navigator>
+  <navigator url="/pages/07selectCourse_requirement/07selectCourse_requirement"><text class='txt'>07-选课-选课要求</text></navigator>
+  <navigator url="/pages/07selectCourse_requirement1/07selectCourse_requirement1"><text class='txt'>07-选课-选课要求1</text></navigator>
+  <view class='bor-t'></view>
+  <navigator url="/pages/08classPlay_directory/08classPlay_directory"><text class='txt'>08-培训班播放页-目录</text></navigator>
+  <navigator url="/pages/08classPlay_info/08classPlay_info"><text class='txt'>08-培训班播放页-信息</text></navigator>
+  <navigator url="/pages/08classPlay_audition/08classPlay_audition"><text class='txt'>08-培训班播放页-试听</text></navigator>
+  <view class='bor-t'></view>
+  <navigator url="/pages/09coursePlay_directory/09coursePlay_directory"><text class='txt'>09-自主选课播放页-目录</text></navigator>
+  <navigator url="/pages/09coursePlay_test/09coursePlay_test"><text class='txt'>09-自主选课播放页-课后测验</text></navigator>
+  <navigator url="/pages/09coursePlay_situation/09coursePlay_situation"><text class='txt'>09-自主选课播放页-考核情况</text></navigator>
+  <view class='bor-t'></view>
+  <navigator url="/pages/10exam_detail/10exam_detail"><text class='txt'>10-考试-考试详情</text></navigator>
+  <navigator url="/pages/10exam_detail_noSubmit/10exam_detail_noSubmit"><text class='txt'>10-考试-考试详情-未提交</text></navigator>
+  <navigator url="/pages/10exam_singleSelect/10exam_singleSelect"><text class='txt'>10-考试-单选题</text></navigator>
+  <navigator url="/pages/10exam_multipleSelect/10exam_multipleSelect"><text class='txt'>10-考试-多选题</text></navigator>
+  <navigator url="/pages/10exam_trueOrFalse/10exam_trueOrFalse"><text class='txt'>10-考试-判断题</text></navigator>
+  <navigator url="/pages/10exam_card/10exam_card"><text class='txt'>10-考试-答题卡</text></navigator>
+  <navigator url="/pages/10exam_parse/10exam_parse"><text class='txt'>10-考试-题析页</text></navigator>
+  <navigator url="/pages/10exam_parseDetail/10exam_parseDetail"><text class='txt'>10-考试-题析页-具体题目</text></navigator>
+  <navigator url="/pages/10exam_parseCard/10exam_parseCard"><text class='txt'>10-考试-题析页-答题卡</text></navigator>
+  <navigator url="/pages/10exam_history/10exam_history"><text class='txt'>10-考试-考试历史记录</text></navigator>
+  <view class='bor-t'></view>
+  <navigator url="/pages/11exercises_modeAnswer/11exercises_modeAnswer"><text class='txt'>11-练习-答题模式</text></navigator>
+  <navigator url="/pages/11exercises_modeParse/11exercises_modeParse"><text class='txt'>11-练习-背题模式</text></navigator>
+  <navigator url="/pages/11exercises_history/11exercises_history"><text class='txt'>11-练习-历史练习题</text></navigator>
+  <navigator url="/pages/11exercises_historyScreening/11exercises_historyScreening"><text class='txt'>11-练习-历史练习题-筛选</text></navigator>
+  <navigator url="/pages/11exercises_dialogQuestion/11exercises_dialogQuestion"><text class='txt'>11-练习-弹窗题</text></navigator>
+  <navigator url="/pages/11exercises_dialogQuestionParse/11exercises_dialogQuestionParse"><text class='txt'>11-练习-弹窗题-解析</text></navigator>
+  <view class='bor-t'></view>
+  <navigator url="/pages/12test_detail/12test_detail"><text class='txt'>12-测验-考试详情</text></navigator>
+  <navigator url="/pages/12test_detail_noSubmit/12test_detail_noSubmit"><text class='txt'>12-测验-考试详情-未提交</text></navigator>
+  <navigator url="/pages/12test_singleSelect/12test_singleSelect"><text class='txt'>12-测验-单选题</text></navigator>
+  <navigator url="/pages/12test_multipleSelect/12test_multipleSelect"><text class='txt'>12-测验-多选题</text></navigator>
+  <navigator url="/pages/12test_trueOrFalse/12test_trueOrFalse"><text class='txt'>12-测验-判断题</text></navigator>
+  <navigator url="/pages/12test_card/12test_card"><text class='txt'>12-测验-答题卡</text></navigator>
+  <navigator url="/pages/12test_parse/12test_parse"><text class='txt'>12-测验-题析页</text></navigator>
+  <navigator url="/pages/12test_parseDetail/12test_parseDetail"><text class='txt'>12-测验-题析页-具体题目</text></navigator>
+  <navigator url="/pages/12test_history/12test_history"><text class='txt'>12-测验-测验历史记录</text></navigator>
+  <view class='bor-t'></view>
+  <navigator url="/pages/13learningArchives_empty/13learningArchives_empty"><text class='txt'>13-学习档案-空数据</text></navigator>
+  <navigator url="/pages/13learningArchives_class/13learningArchives_class"><text class='txt'>13-学习档案-培训班</text></navigator>
+  <navigator url="/pages/13learningArchives_classMerge/13learningArchives_classMerge"><text class='txt'>13-学习档案-培训班-合并打印</text></navigator>
+  <navigator url="/pages/13learningArchives_course/13learningArchives_course"><text class='txt'>13-学习档案-自主选课</text></navigator>
+   <navigator url="/pages/13learningArchives_preview/13learningArchives_preview"><text class='txt'>13-学习档案-证明预览</text></navigator> 
+  <view class='bor-t'></view>
+  <navigator url="/pages/14findTraining_class/14findTraining_class"><text class='txt'>14-发现培训-培训班</text></navigator>
+  <navigator url="/pages/14findTraining_course/14findTraining_course"><text class='txt'>14-发现培训-自主选课</text></navigator>
+  <navigator url="/pages/14findTraining_classDetail_info/14findTraining_classDetail_info"><text class='txt'>14-发现培训-培训班详情-信息</text></navigator>
+  <navigator url="/pages/14findTraining_classDetail_directory/14findTraining_classDetail_directory"><text class='txt'>14-发现培训-培训班详情-目录</text></navigator>
+  <navigator url="/pages/14findTraining_courseDetail_info/14findTraining_courseDetail_info"><text class='txt'>14-发现培训-课程详情-信息</text></navigator>
+  <navigator url="/pages/14findTraining_courseDetail_directory/14findTraining_courseDetail_directory"><text class='txt'>14-发现培训-课程详情-目录</text></navigator>
+  <view class='bor-t'></view>
+  <navigator url="/pages/15tryListen_directory/15tryListen_directory"><text class='txt'>15-课程试听-目录</text></navigator>
+  <navigator url="/pages/15tryListen_info/15tryListen_info"><text class='txt'>15-课程试听-信息</text></navigator>
+  <view class='bor-t'></view>
+  <navigator url="/pages/16shoppingCart_emtry/16shoppingCart_emtry"><text class='txt'>16-购物车-空数据</text></navigator>
+  <navigator url="/pages/16shoppingCart/16shoppingCart"><text class='txt'>16-购物车</text></navigator>
+  <navigator url="/pages/16shoppingCart_order/16shoppingCart_order"><text class='txt'>16-购物车-确认订单</text></navigator>
+  <navigator url="/pages/16shoppingCart_orderList/16shoppingCart_orderList"><text class='txt'>16-购物车-确认订单班级列表</text></navigator>
+  <navigator url="/pages/16shoppingCart_order_invoice/16shoppingCart_order_invoice"><text class='txt'>16-购物车-确认订单-发票</text></navigator>
+  <navigator url="/pages/16shoppingCart_order_invoiceSend/16shoppingCart_order_invoiceSend"><text class='txt'>16-购物车-确认订单-发票配送</text></navigator>
+  <navigator url="/pages/16shoppingCart_pay/16shoppingCart_pay"><text class='txt'>16-购物车-结算</text></navigator>
+  <navigator url="/pages/16shoppingCart_paySuccess/16shoppingCart_paySuccess"><text class='txt'>16-购物车-支付成功</text></navigator>
+  <view class='bor-t'></view>
+  <navigator url="/pages/17mine/17mine"><text class='txt'>17-我的</text></navigator>
+  <navigator url="/pages/17mine_personInfo/17mine_personInfo"><text class='txt'>17-我的-个人信息</text></navigator>
+  <navigator url="/pages/17mine_address/17mine_address"><text class='txt'>17-我的-收货地址</text></navigator>
+  <navigator url="/pages/17mine_modifyPassword/17mine_modifyPassword"><text class='txt'>17-我的-修改密码</text></navigator>
+  <navigator url="/pages/17mine_list_noPay/17mine_list_noPay"><text class='txt'>17-我的-报名清单-未支付</text></navigator>
+  <navigator url="/pages/17mine_list_paid/17mine_list_paid"><text class='txt'>17-我的-报名清单-已支付</text></navigator>
+  <navigator url="/pages/17mine_list_close/17mine_list_close"><text class='txt'>17-我的-报名清单-交易关闭</text></navigator>
+  <navigator url="/pages/17mine_list_changeRecord/17mine_list_changeRecord"><text class='txt'>17-我的-报名清单-换班记录</text></navigator>
+  <navigator url="/pages/17mine_list_refundRecord/17mine_list_refundRecord"><text class='txt'>17-我的-报名清单-退款记录</text></navigator>
+  <navigator url="/pages/17mine_orderDetail/17mine_orderDetail"><text class='txt'>17-订单详情</text></navigator>
+  <navigator url="/pages/17mine_orderDetail_status/17mine_orderDetail_status"><text class='txt'>17-订单详情-订单状态</text></navigator>
+  <view class='bor-t'></view>
+  <navigator url="/pages/18perfectInfo_dialog/18perfectInfo_dialog"><text class='txt'>18-完善配送信息-弹窗</text></navigator>
+  <navigator url="/pages/18perfectInfo/18perfectInfo"><text class='txt'>18-完善配送信息</text></navigator>
+  <navigator url="/pages/18perfectInfo_invoice/18perfectInfo_invoice"><text class='txt'>18-完善配送信息-发票</text></navigator>
+  <navigator url="/pages/18perfectInfo_send/18perfectInfo_send"><text class='txt'>18-完善配送信息-配送</text></navigator>
+  <view class='bor-t'></view>
+  <navigator url="/pages/19noData/19noData"><text class='txt'>19-空数据</text></navigator>
+  <navigator url="/pages/20dialog01/20dialog01"><text class='txt'>20-弹窗1</text></navigator>
+  <navigator url="/pages/20dialog02/20dialog02"><text class='txt'>20-弹窗2</text></navigator>
+  <navigator url="/pages/20dialog03/20dialog03"><text class='txt'>20-授权信息</text></navigator>
+  <view class='bor-t'></view> 
+   <navigator url="/pages/20logisticsInformation/20logisticsInformation"><text class='txt'>20-物流信息</text></navigator> 
+   <view class='bor-t'></view>
+   <navigator url="/pages/21registered_new/21registered_new"><text class='txt'>21-注册（新）</text></navigator>
+   <navigator url="/pages/22perfectPersonInfo/22perfectPersonInfo"><text class='txt'>22-完善个人信息</text></navigator>
+   <view class='bor-t'></view>
+   <navigator url="/pages/23offlineClass_recently/23offlineClass_recently"><text class='txt'>23-面授班-近期培训</text></navigator>
+   <navigator url="/pages/23offlineClass_finished/23offlineClass_finished"><text class='txt'>23-面授班-已结束</text></navigator>
+   <navigator url="/pages/23offlineClass_perfectInfo/23offlineClass_perfectInfo"><text class='txt'>23-面授班-完善报名信息</text></navigator>
+   <navigator url="/pages/23offlineClass_confirmRegister/23offlineClass_confirmRegister"><text class='txt'>23-面授班-确认报到</text></navigator>
+   <navigator url="/pages/23offlineClass_registerSuccessful/23offlineClass_registerSuccessful"><text class='txt'>23-面授班-报到成功</text></navigator>
+   <view class='bor-t'></view>
+   <navigator url="/pages/24offlineClass_detail_directory/24offlineClass_detail_directory"><text class='txt'>24-具体面授班-课程目录</text></navigator>
+   <navigator url="/pages/24offlineClass_detail_materials/24offlineClass_detail_materials"><text class='txt'>24-具体面授班-学习资料</text></navigator>
+   <view class='bor-t'></view>
+   <navigator url="/pages/25offlineClass_detail_exam/25offlineClass_detail_exam"><text class='txt'>25-具体面授班-测试模块</text></navigator> 
+   <view class='bor-t'></view>
+   <navigator url="/pages/26offlineClass_detail_questionnaire/26offlineClass_detail_questionnaire"><text class='txt'>26-具体面授班-问卷</text></navigator>
+   <view class='bor-t'></view>
+   <navigator url="/pages/27questionnaire_enter/27questionnaire_enter"><text class='txt'>27-问卷进入页</text></navigator>
+   <navigator url="/pages/27questionnaire_content1/27questionnaire_content1"><text class='txt'>27-普通问卷</text></navigator>
+   <navigator url="/pages/27questionnaire_content2/27questionnaire_content2"><text class='txt'>27-量表型问卷</text></navigator>
+   <navigator url="/pages/27questionnaire_cart/27questionnaire_cart"><text class='txt'>27-问卷答题卡</text></navigator>
+   <navigator url="/pages/27questionnaire_complete/27questionnaire_complete"><text class='txt'>27-问卷完成</text></navigator>
+   <view class='bor-t'></view>
+   <navigator url="/pages/28offlineClass_situation1/28offlineClass_situation1"><text class='txt'>28-面授班-考核情况01</text></navigator>
+   <navigator url="/pages/28offlineClass_situation2/28offlineClass_situation2"><text class='txt'>28-面授班-考核情况02</text></navigator>
+   <navigator url="/pages/28offlineClass_situation3/28offlineClass_situation3"><text class='txt'>28-面授班-考核情况03</text></navigator>
+   <navigator url="/pages/28offlineClass_situation4/28offlineClass_situation4"><text class='txt'>28-面授班-考核情况04</text></navigator>
+   <view class='bor-t'></view>
+   <navigator url="/pages/29contactBook/29contactBook"><text class='txt'>29-通讯录</text></navigator>
+   <navigator url="/pages/30notice/30notice"><text class='txt'>30-通知</text></navigator>
+   <navigator url="/pages/30noticeDetail/30noticeDetail"><text class='txt'>30-通知详情</text></navigator>
+   <navigator url="/pages/31lodgingInfo/31lodgingInfo"><text class='txt'>31-住宿信息</text></navigator>
+   <view class='bor-t'></view>
+   <navigator url="/pages/32classPhoto/32classPhoto"><text class='txt'>32-班级风采</text></navigator>
+   <view class='bor-t'></view>
+   <navigator url="/pages/33changePhone/33changePhone"><text class='txt'>33-换绑手机</text></navigator>
+   <view class='bor-t'></view>
+</view>
+

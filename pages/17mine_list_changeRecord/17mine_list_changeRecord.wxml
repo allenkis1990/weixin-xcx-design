@@ -1,0 +1,51 @@
+<!--报名清单-换班记录-->
+<view class="contain">
+    <view class="hb-wrap-box hb-wrap-box-4">
+        <view class="bg-g">原订单</view>
+        <view class="weui-panel hb-panel">
+            <view class="order-info-box">
+                <view>2016-12-12 09:23</view>
+                <view class="tr-2">订单号：358956235412358</view>
+            </view>
+            <view class="hb-media-box hb-media-box-1">
+                <view class="hb-media-box-hd">
+                    <image class="hb-media-box-thumb" src="/images/course-img.jpg" />
+                </view>
+                <view class="hb-media-box-bd">
+                    <view class="hb-media-box-title">这里是一个培训班名称这里是一个培训班名称</view>
+                    <view class="hb-media-box-desc">年度：2017年</view>
+                    <view class="hb-media-box-desc">科目：专业课</view>
+                    <view class="hb-media-box-desc">学时：30</view>
+                </view>
+                <view class="price">￥<text class="num">39.99</text></view>
+            </view>
+            <view class="order-info-box">
+                <view></view>
+                <view>总价<text class="ml10 ci fs32">¥ 30</text> </view>
+            </view>
+        </view>
+        <view class="bg-g">换班订单</view>
+        <view class="weui-panel hb-panel">
+            <view class="order-info-box">
+                <view>2016-12-12 09:23</view>
+                <view class="tr-2">订单号：358956235412358</view>
+            </view>
+            <view class="hb-media-box hb-media-box-1">
+                <view class="hb-media-box-hd">
+                    <image class="hb-media-box-thumb" src="/images/course-img.jpg" />
+                </view>
+                <view class="hb-media-box-bd">
+                    <view class="hb-media-box-title">这里是一个培训班名称这里是一个培训班名称</view>
+                    <view class="hb-media-box-desc">年度：2017年</view>
+                    <view class="hb-media-box-desc">科目：专业课</view>
+                    <view class="hb-media-box-desc">学时：30</view>
+                </view>
+                <view class="price">￥<text class="num">39.99</text></view>
+            </view>
+            <view class="order-info-box">
+                <view></view>
+                <view>总价<text class="ml10 ci fs32">¥ 30</text> </view>
+            </view>
+        </view>
+    </view>
+</view>

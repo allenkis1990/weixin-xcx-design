@@ -1,0 +1,29 @@
+<!--考试题析-答题卡-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <view class="exam-panel-hd">
+            <view class="hd-info">这里是考试名称</view>
+        </view>
+        <view class="exam-panel exam-panel-1">
+            <view class="questions-card-panel clear">
+                <!--已答num-b，答对 num-g，答错num-r-->
+                <view class="items"><view href="" class="num num-g">1</view></view>
+                <view class="items"><view href="" class="num num-g">2</view></view>
+                <view class="items"><view href="" class="num num-r">3</view></view>
+                <view class="items"><view href="" class="num num-g">4</view></view>
+                <view class="items"><view href="" class="num num-g">5</view></view>
+                <view class="items"><view href="" class="num num-r">6</view></view>
+                <view class="items"><view href="" class="num num-r">7</view></view>
+                <view class="items"><view href="" class="num num-g">8</view></view>
+                <view class="items"><view href="" class="num num-g">9</view></view>
+                <view class="items"><view href="" class="num num-g">10</view></view>
+                <view class="items"><view href="" class="num num-r">11</view></view>
+                <view class="items"><view href="" class="num num-g">12</view></view>
+            </view>
+        </view>
+    </view>
+    <view class="hb-tabbar">
+        <view class="left-box"><text class="ci">说明：</text>绿色表示答对，红色表示答错</view>
+    </view>
+</view>
+

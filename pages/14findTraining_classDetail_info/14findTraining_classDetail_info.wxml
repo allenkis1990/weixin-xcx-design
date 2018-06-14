@@ -1,0 +1,59 @@
+<!--发现培训-培训班详情-信息-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <view class="view-pos">
+            <view class="course-detail-hd">
+                <view class="course-detail-img">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+                <view class="year-label-box">
+                    <image class="img" src="/images/year-label.png" alt=" " />
+                    <text class="year-label">2017</text>
+                </view>
+                <view class="course-info">
+                    <image class="mask" src="/images/course-img-mask.png" alt=" " />
+                    <view class="course-name">我是一个培训班的名称培训班的名称培训班的名称</view>
+                </view>
+            </view>
+            <!--tab-->
+            <view class="hb-tab-tit hb-tab-tit-2">
+                <view class="tab-tit-items current">
+                    <text class="items-name">培训信息</text>
+                    <image class="current-img" src="/images/tab-current-bg.jpg" />
+                </view>
+                <view class="tab-tit-items">
+                    <text class="items-name">课程目录</text>
+                    <image class="current-img" src="/images/tab-current-bg.jpg" />
+                </view>
+            </view>
+            <!--/tab-->
+        </view>
+        <view class="course-detail-tab-bd course-detail-tab-bd-2">
+            <scroll-view>
+                <view class="block-box situation-info-box">
+                    <view class="info-tit">考核要求</view>
+                    <view class="info-desc">课程学习进度=100% ，课后测验成绩>=60</view>
+                </view>
+                <view class="block-box situation-info-box">
+                    <view class="info-tit">选课要求</view>
+                    <view class="info-desc">本年度继续教育学习中 选课学时数须 >=15 学时</view>
+                </view>
+                <view class="block-box situation-info-box">
+                    <view class="info-tit">班级培训信息</view>
+                    <view class="info-desc">科目：公需课</view>
+                    <view class="info-desc">年度：2017年</view>
+                    <view class="info-desc">专业：-</view>
+                    <view class="info-desc">学时：30</view>
+                    <view class="info-desc">培训起止时间：2017-12-12  至  2018-12-12</view>
+                    <view class="info-desc">报名起止时间：2017-08-12  至  2018-03-12</view>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+    <view class="hb-tabbar">
+        <view class="left-box"><text class="ci fs40">￥ 30.00</text></view>
+        <view class="hb-btn hb-btn-2">加入购物车</view>
+        <view class="hb-btn">立即报名</view>
+    </view>
+</view>
+

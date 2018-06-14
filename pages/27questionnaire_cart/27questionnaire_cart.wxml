@@ -1,0 +1,26 @@
+<!--问卷-答题卡-->
+<view class="contain">
+    <view class="exam-panel-hd questionnaire-info">
+        <view class="info-items"><text class="label label-1"></text>选答</view>
+        <view class="info-items"><text class="label label-2"></text>必答</view>
+        <view class="info-items"><text class="label label-3"></text>未答</view>
+        <view class="info-items"><text class="label label-4"></text>已答</view>
+    </view>
+    <view class="exam-panel exam-panel-1">
+        <view class="questions-card-panel questionnaire-card clear">
+            <!--已答num-b，必答num-m-->
+            <view class="items"><view href="" class="num num-m num-b">1</view></view>
+            <view class="items"><view href="" class="num num-m num-b">2</view></view>
+            <view class="items"><view href="" class="num num-m num-b">3</view></view>
+            <view class="items"><view href="" class="num num-m num-b">4</view></view>
+            <view class="items"><view href="" class="num num-m num-b">5</view></view>
+            <view class="items"><view href="" class="num num-m num-b">6</view></view>
+            <view class="items"><view href="" class="num num-m">7</view></view>
+            <view class="items"><view href="" class="num num-m">8</view></view>
+            <view class="items"><view href="" class="num">9</view></view>
+            <view class="items"><view href="" class="num">10</view></view>
+            <view class="items"> <view href="" class="num">11</view></view>
+            <view class="items"><view href="" class="num">12</view></view>
+        </view>
+    </view>
+</view>

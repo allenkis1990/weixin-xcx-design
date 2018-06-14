@@ -1,0 +1,67 @@
+<!--考核情况-->
+<view class="contain">
+    <view class="hb-box-bd">
+        <view class="views-block">
+            <image class="bg" src="/images/exam-detail-bg.png" alt=" " />
+            <view class="views-block-tit">当前学习情况</view>
+            <view class="circle-process-box views-block-bd">
+                <view class="process-items">
+                    <view class="circle-panel">
+                        <view class="circle-num">50<text class="txt">%</text></view>
+                        <canvas class='circle' style="width: 102px; height: 102px;z-index: -99;" canvas-id="firstCanvas"></canvas>
+                        <!-- 当使用绝对定位时，文档流后边的 canvas 的显示层级高于前边的 canvas -->
+                        <canvas class="circle" style="width: 98px; height: 98px;" canvas-id="secondCanvas"></canvas>
+                    </view>
+                    <view class="process-tit-box">
+                        <view class="process-tit">
+                            <text>已学进度</text>
+                        </view>
+                    </view>
+                </view>
+                <view class="process-items">
+                    <view class="circle-panel">
+                        <view class="circle-num">50<text class="txt">分</text></view>
+                        <canvas class='circle' style="width: 102px; height: 102px;z-index: -99;" canvas-id="firstCanvas"></canvas>
+                        <!-- 当使用绝对定位时，文档流后边的 canvas 的显示层级高于前边的 canvas -->
+                        <canvas class="circle" style="width: 98px; height: 98px;" canvas-id="secondCanvas"></canvas>
+                    </view>
+                    <view class="process-tit-box">
+                        <view class="process-tit">
+                            <text>考试(50分)</text>
+                            <text>课程练习得分(32分)</text>
+                        </view>
+                    </view>
+                    <view class="status-label">
+                        <image class="img" src="/images/pass-label.png" alt=" " />
+                        <txet class="label-text">已达标</txet>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="block-position">
+            <view class="block-box situation-info-box">
+                <view class="info-tit">考试</view>
+                <view class="info-desc">课程学习进度=100% ，考试成绩>=60</view>
+            </view>
+            <view class="block-box situation-info-box">
+                <view class="info-tit">选课要求</view>
+                <view class="info-desc"><text class="cb">[要求]</text> 本班培训选课学时数须 >=15 学时</view>
+                <view class="info-desc"><text class="cb">[当前]</text> 已选 15 学时，<text class="ci">还需 8 学时</text>。</view>
+                <view class="tc"><view class="btn">去选课</view></view>
+                <view class="tc"><view class="btn disabled">去选课</view></view>
+            </view>
+            <view class="block-box situation-info-box">
+                <view class="info-tit">班级培训信息</view>
+                <view class="info-desc">年度：2017年</view>
+                <view class="info-desc">专业：八大员 / 土建施工员</view>
+                <view class="info-desc">学时：30</view>
+                <view class="info-desc">培训起止时间：2018-12-12 到 2019-12-12</view>
+            </view>
+        </view>
+    </view>
+    <view class="hb-tabbar">
+        <view class="hb-btn hb-btn-3">整班重学</view>
+        <!--不可操作-->
+        <!--<view class="hb-btn disabled">整班重学</view>-->
+    </view>
+</view>

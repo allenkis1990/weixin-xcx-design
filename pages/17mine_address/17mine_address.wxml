@@ -1,0 +1,79 @@
+<!--我的-收货地址-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <view class="hb-warm-tips">
+            <image class="ico-tips" src="/images/icon-tips.png" />
+            <text class="tips-txt">请正确填写您的收件地址，以便下一次报名培训班级时作为发票/证书的邮寄地址，感谢您的配合！</text>
+        </view>
+        <view class="weui-panel hb-panel">
+            <view class="weui-cells">
+                <view class="weui-cell weui-cell_access">
+                    <view class="weui-cell__hd"><text class="tit-2">收件人</text></view>
+                    <view class="weui-cell__bd">隔壁老王</view>
+                </view>
+                <view class="weui-cell weui-cell_access">
+                    <view class="weui-cell__hd"><text class="tit-2">手机号</text></view>
+                    <view class="weui-cell__bd">15659135119</view>
+                </view>
+                <view class="weui-cell weui-cell_access">
+                    <view class="weui-cell__hd"><text class="tit-2">收件地区</text></view>
+                    <view class="weui-cell__bd">四川省 成都市 鼓楼区</view>
+                </view>
+                <view class="weui-cell weui-cell_access weui-cell-start">
+                    <view class="weui-cell__hd"><text class="tit-2">详细地址</text></view>
+                    <view class="weui-cell__bd">工业路611号海峡技术转移中心13层福建华博教育科技股份有限公司</view>
+                </view>
+                <view class="weui-cell weui-cell_access">
+                    <view class="weui-cell__hd"><text class="tit-2">邮政编码</text></view>
+                    <view class="weui-cell__bd">35220111</view>
+                </view>
+            </view>
+        </view>
+        
+        <!--编辑-->
+        <view class="weui-panel hb-panel">
+            <view class="weui-cells weui-cells_form">
+                <view class="weui-cell">
+                    <view class="weui-cell__hd"><view class="tit-2">姓名</view></view>
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" type="text" placeholder="请输入" />
+                    </view>
+                </view>
+                <view class="weui-cell">
+                    <view class="weui-cell__hd"><view class="tit-2">手机号</view></view>
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" type="text" placeholder="请输入" />
+                    </view>
+                </view>
+                <view class="weui-cell weui-cell_access">
+                    <view class="weui-cell__hd"><view class="tit-2">收件地区</view></view>
+                    <view class="weui-cell__bd">
+                        <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+                            <view class="picker c6">
+                                请选择
+                            </view>
+                        </picker>
+                    </view>
+                    <view class="weui-cell__ft"></view>
+                </view>
+                <view class="weui-cell weui-cell-start">
+                    <view class="weui-cell__hd"><view class="tit-2">详细地址</view></view>
+                    <view class="weui-cell__bd">
+                        <textarea class="weui-textarea textarea-ios" placeholder="请输入文本"></textarea>
+                    </view>
+                </view>
+                <view class="weui-cell">
+                    <view class="weui-cell__hd"><view class="tit-2">邮政编码</view></view>
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" type="text" placeholder="请输入" />
+                    </view>
+                </view>
+            </view>
+        </view>
+        <!--/编辑-->
+    </view>
+
+    <view class="hb-tabbar">
+        <view class="hb-btn hb-btn-3">编辑收货地址</view>
+    </view>
+</view>

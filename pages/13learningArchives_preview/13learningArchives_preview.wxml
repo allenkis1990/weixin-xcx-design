@@ -1,0 +1,11 @@
+<!--学习档案-自主选课（合并打印）-->
+<view class="contain">
+    <view class="hb-box-bd">
+        <image class="archives-img" src="/images/course-img.jpg" alt=" " />
+    </view>
+    <view class="hb-tabbar">
+        <view class="hb-btn hb-btn-3">保存至本地</view>
+        <!--不可操作-->
+        <!--<view class="hb-btn disabled">保存至本地</view>-->
+    </view>
+</view>

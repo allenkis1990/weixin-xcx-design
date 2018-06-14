@@ -1,0 +1,46 @@
+<!--我的-->
+ <view class="contain">
+    <view class="hb-user-img">
+        <image class="user-img" src="/images/user-img.jpg" />
+        <view class="mt10">隔壁老王</view>
+    </view>
+    <view class="weui-cells hb-panel hb-personal-center">
+        <view class="weui-cell weui-cell_access">
+            <view class="weui-cell__hd">
+                <image class="img" src="/images/mine-list.png" />
+            </view>
+            <view class="weui-cell__bd">
+                <view class="bd-items fs30">报名清单</view>
+            </view>
+            <view class="weui-cell__ft">
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_access">
+            <view class="weui-cell__hd">
+                <image class="img" src="/images/mine-info.png" />
+            </view>
+            <view class="weui-cell__bd">
+                <view class="bd-items fs30">个人信息</view>
+            </view>
+            <view class="weui-cell__ft"></view>
+        </view>
+        <view class="weui-cell weui-cell_access">
+            <view class="weui-cell__hd">
+                <image class="img" src="/images/mine-address.png" />
+            </view>
+            <view class="weui-cell__bd">
+                <view class="bd-items fs30">收货地址</view>
+            </view>
+            <view class="weui-cell__ft"></view>
+        </view>
+        <view class="weui-cell weui-cell_access">
+            <view class="weui-cell__hd">
+                <image class="img" src="/images/mine-password.png" />
+            </view>
+            <view class="weui-cell__bd">
+                <view class="bd-items fs30">修改密码</view>
+            </view>
+            <view class="weui-cell__ft"></view>
+        </view>
+    </view>
+</view> 

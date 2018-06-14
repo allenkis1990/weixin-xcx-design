@@ -1,0 +1,38 @@
+<!--面授班-考核情况-->
+<view class="contain offline-situation">
+    <view class="views-block">
+        <image class="bg" src="/images/exam-detail-bg.png" alt=" " />
+        <view class="views-block-tit views-block-tit-1">
+            <text>当前学习情况</text>
+            <text class="situation-label">尚未达标</text>
+            <!--<text class="situation-label-1">考核通过</text>-->
+        </view>
+        <view class="circle-process-box views-block-bd">
+            <view class="process-items bor-r">
+                <view><text class="big">3</text>次</view>
+                <view class="mt20">已签到有效次数</view>
+            </view>
+            <view class="process-items bor-r">
+                <view><text class="big">3</text>次</view>
+                <view class="mt20">已签退有效次数</view>
+            </view>
+            <view class="process-items">
+                <view><text class="big">60</text>分</view>
+                <view class="mt20">考试得分</view>
+            </view>
+        </view>
+    </view>
+    <view class="block-position">
+        <view class="block-box situation-info-box">
+            <view class="info-tit">班级考核要求</view>
+            <view class="info-desc">要求签到次数：<text class="ci">≥5</text> 次，要求签退次数：<text class="ci">≥5</text> 次，考试考核成绩：<text class="ci">≥60</text> 分，需完成 <text class="ci">1</text> 份调查问卷。</view>
+        </view>
+        <view class="block-box situation-info-box">
+            <view class="info-tit">班级培训信息</view>
+            <view class="info-desc">年度：2017年</view>
+            <view class="info-desc">专业：八大员 / 土建施工员</view>
+            <view class="info-desc">学时：30</view>
+            <view class="info-desc">培训起止时间：2018-12-12 到 2019-12-12</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,140 @@
+<!--课程播放页-考核情况-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <view class="view-pos">
+            <view class="hb-video-box">
+                <view class="video-top-bar">
+                    <view class="top-bar-hd">
+                        <image class="img" src="/images/icon-return.png" alt=" " />
+                    </view>
+                    <view class="top-bar-bd">
+                        <text class="course-name">我是课程名称</text>
+                    </view>
+                    <view class="top-bar-ft">
+                        <text class="ft-txt">课程目录</text>
+                        <view class="video-course-catalog" style="display: none;">
+                            <view class="items open">
+                                <view class="items-tit">第一章</view>
+                                <view class="items-cont">
+                                    <text class="cont-txt current">课程课程课程课程课程</text>
+                                    <text class="cont-txt">课程课程课程课程课程</text>
+                                    <text class="cont-txt">课程课程课程课程课程</text>
+                                </view>
+                            </view>
+                            <view class="items">
+                                <view class="items-tit">第一章</view>
+                            </view>
+                            <view class="items">
+                                <view class="items-tit">第一章</view>
+                            </view>
+                            <view class="items">
+                                <view class="items-tit">第一章</view>
+                            </view>
+                            <view class="items">
+                                <view class="items-tit">第一章</view>
+                            </view>
+                            <view class="items">
+                                <view class="items-tit">第一章</view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <!--进度条-->
+                <view class="operation-box">
+                    <view class="operation-hd">
+                        <view class="ico">
+                            <image class="img" src="/images/video-stop-s.png" alt=" " />
+                            <!--<image class="img" src="/images/video-play-s.png" alt=" " />-->
+                        </view>
+                    </view>
+                    <view class="operation-bd">
+                        <view class="video-process">
+                            <view class="current" style="width: 20%;">
+                                <view class="dot"></view>
+                            </view>
+                        </view>
+                        <text class="time">00:20/56:26</text>
+                    </view>
+                    <view class="operation-ft">
+                        <view class="ico">
+                            <image class="img" src="/images/video-bigger.png" alt=" " />
+                        </view>
+                    </view>
+                </view>
+                <!--点击暂停后-->
+                <view class="video-stop-panel">
+                    <image class="img" src="/images/video-play-l.png" alt=" " />
+                </view>
+            </view>
+            <view class="hb-tab-tit hb-tab-tit-1">
+                <view class="tab-tit-items">
+                    <text class="items-name">课程目录</text>
+                    <image class="current-img" src="/images/tab-current-bg.jpg" />
+                </view>
+                <view class="tab-tit-items">
+                    <text class="items-name">课后测验</text>
+                    <image class="current-img" src="/images/tab-current-bg.jpg" />
+                </view>
+                <view class="tab-tit-items current">
+                    <text class="items-name">考核情况</text>
+                    <image class="current-img" src="/images/tab-current-bg.jpg" />
+                </view>
+            </view>
+        </view>
+        <view class="course-catalog b100">
+            <!--<view class="situation-panel success">-->
+                <!--<image class="situation-img" src="/images/situation-pass.png" />-->
+                <!--<view class="txt">课程考核已合格！</view>-->
+            <!--</view>-->
+            <view class="situation-panel fail">
+                <image class="situation-img" src="/images/situation-fail.png" />
+                <view class="txt">课程还未合格，请继续学习！</view>
+                <view class="situation-info-box tc">
+                    <view class="btn btn-1">重学</view>
+                    <!--<view class="btn btn-1 disabled">重学</view>-->
+                </view>
+            </view>
+            <view class="block-box fs30">当前学习数据/考核要求</view>
+            <view class="circle-process-box circle-process-box-1">
+                <view class="process-items">
+                    <view class="circle-panel">
+                        <view class="circle-num">50.00<text class="txt">%</text></view>
+                    </view>
+                    <view class="process-tit-box">
+                        <view class="process-tit">
+                            <text>已学进度</text>
+                            <text class="c9">考核进度(100%)</text>
+                        </view>
+                    </view>
+                </view>
+                <view class="process-items">
+                    <view class="circle-panel">
+                        <view class="circle-num">50<text class="txt">分</text></view>
+                    </view>
+                    <view class="process-tit-box">
+                        <view class="process-tit">
+                            <text>测验得分</text>
+                            <text class="c9">考核分数(60分)</text>
+                        </view>
+                    </view>
+                </view>
+                <view class="process-items">
+                    <view class="circle-panel">
+                        <view class="circle-num">50<text class="txt">分</text></view>
+                    </view>
+                    <view class="process-tit-box">
+                        <view class="process-tit">
+                            <text>课程练习得分</text>
+                            <text class="c9">考核分数(60分)</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    
+    
+
+    
+</view>
+

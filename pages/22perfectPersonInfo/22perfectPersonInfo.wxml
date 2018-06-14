@@ -1,0 +1,43 @@
+<!--完善个人信息-->
+<view class="contain">
+    <view class="hb-form-cells">
+        <view class="tit-box-1">
+            <view class="h1">完善信息</view>
+            <view class="fs30 c9 mt10">更好地为您的继续教育服务！</view>
+        </view>
+        <view class="weui-panel hb-panel">
+            <view class="weui-cells">
+                <view class="weui-cell weui-cell_access">
+                    <view class="weui-cell__hd"><text class="tit-2">姓名</text></view>
+                    <view class="weui-cell__bd"><view class="arrow"></view><input type="text" class="weui-input" value="隔壁老王" /></view>
+                </view>
+                <!--编辑模式-->
+                <view class="weui-cell weui-cell_access">
+                    <view class="weui-cell__hd"><text class="tit-2">姓名</text></view>
+                    <view class="weui-cell__bd"><input type="text" placeholder="请输入" class="weui-input" /></view>
+                </view>
+                <!--编辑模式-->
+                <view class="weui-cell">
+                    <view class="weui-cell__hd"><text class="tit-2">身份证号</text></view>
+                    <view class="weui-cell__bd">543437835424245456</view>
+                </view>
+                <view class="weui-cell weui-cell_access">
+                    <view class="weui-cell__hd"><text class="tit-2">性别</text></view>
+                    <view class="weui-cell__bd">男</view>
+                    <view class="weui-cell__ft"></view>
+                </view>
+                <view class="weui-cell weui-cell_access">
+                    <view class="weui-cell__hd"><text class="tit-2">手机号</text></view>
+                    <view class="weui-cell__bd">15659135119</view>
+                    <view class="weui-cell__ft"></view>
+                </view>
+                <view class="weui-cell weui-cell_access">
+                    <view class="weui-cell__hd"><text class="tit-2">单位名称</text></view>
+                    <view class="weui-cell__bd to">福建华博教育科技股份有限公司福建华博教育科技股份有限公司</view>
+                    <view class="weui-cell__ft"></view>
+                </view>
+            </view>
+        </view>
+        <view class="btn-primary mt80">提交</view>
+    </view>
+</view>

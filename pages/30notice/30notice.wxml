@@ -1,0 +1,115 @@
+<!--通知-->
+<view class="contain">
+    <view class="notice-list">
+        <view class="notice-items">
+            <view class="date">
+                <view class="day">07日</view>
+                <view class="month">05月</view>
+                <view class="dot"></view>
+            </view>
+            <view class="items-bd">
+                <view class="tit">通知标题</view>
+                <view class="cont">通知内容通知内容通知内容通知内容通知内容通...</view>
+            </view>
+        </view>
+        <view class="notice-items">
+            <view class="date">
+                <view class="day">07日</view>
+                <view class="month">05月</view>
+                <view class="dot"></view>
+            </view>
+            <view class="items-bd">
+                <view class="tit">通知标题</view>
+                <view class="cont">通知内容通知内容通知内容通知内容通知内容通...</view>
+            </view>
+        </view>
+        <view class="notice-items">
+            <view class="date">
+                <view class="day">07日</view>
+                <view class="month">05月</view>
+                <!--<view class="dot"></view>-->
+            </view>
+            <view class="items-bd">
+                <view class="tit">通知标题</view>
+                <view class="cont">通知内容通知内容通知内容通知内容通知内容通...</view>
+            </view>
+        </view>
+        <view class="notice-items">
+            <view class="date">
+                <view class="day">07日</view>
+                <view class="month">05月</view>
+                <!--<view class="dot"></view>-->
+            </view>
+            <view class="items-bd">
+                <view class="tit">通知标题</view>
+                <view class="cont">通知内容通知内容通知内容通知内容通知内容通...</view>
+            </view>
+        </view>
+        <view class="notice-items">
+            <view class="date">
+                <view class="day">07日</view>
+                <view class="month">05月</view>
+                <!--<view class="dot"></view>-->
+            </view>
+            <view class="items-bd">
+                <view class="tit">通知标题</view>
+                <view class="cont">通知内容通知内容通知内容通知内容通知内容通...</view>
+            </view>
+        </view>
+        <view class="notice-items">
+            <view class="date">
+                <view class="day">07日</view>
+                <view class="month">05月</view>
+                <!--<view class="dot"></view>-->
+            </view>
+            <view class="items-bd">
+                <view class="tit">通知标题</view>
+                <view class="cont">通知内容通知内容通知内容通知内容通知内容通...</view>
+            </view>
+        </view>
+        <view class="notice-items">
+            <view class="date">
+                <view class="day">07日</view>
+                <view class="month">05月</view>
+                <!--<view class="dot"></view>-->
+            </view>
+            <view class="items-bd">
+                <view class="tit">通知标题</view>
+                <view class="cont">通知内容通知内容通知内容通知内容通知内容通...</view>
+            </view>
+        </view>
+        <view class="notice-items">
+            <view class="date">
+                <view class="day">07日</view>
+                <view class="month">05月</view>
+                <!--<view class="dot"></view>-->
+            </view>
+            <view class="items-bd">
+                <view class="tit">通知标题</view>
+                <view class="cont">通知内容通知内容通知内容通知内容通知内容通...</view>
+            </view>
+        </view>
+        <view class="notice-items">
+            <view class="date">
+                <view class="day">07日</view>
+                <view class="month">05月</view>
+                <!--<view class="dot"></view>-->
+            </view>
+            <view class="items-bd">
+                <view class="tit">通知标题</view>
+                <view class="cont">通知内容通知内容通知内容通知内容通知内容通...</view>
+            </view>
+        </view>
+        <view class="notice-items">
+            <view class="date">
+                <view class="day">07日</view>
+                <view class="month">05月</view>
+                <!--<view class="dot"></view>-->
+            </view>
+            <view class="items-bd">
+                <view class="tit">通知标题</view>
+                <view class="cont">通知内容通知内容通知内容通知内容通知内容通...</view>
+            </view>
+        </view>
+    </view>
+</view>

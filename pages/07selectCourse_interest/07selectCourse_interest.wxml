@@ -1,0 +1,208 @@
+<!--选课-兴趣课程-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <!--课程包选择-->
+        <view class="hb-year-box">
+            <view class="year-tit year-tit-1">当前课程包</view>
+            <view class="year-bd year-bd-1">
+                <view class="course-bag-name">我是课程包名称全称全称全称</view>
+            </view>
+            <view class="change-label">
+                <view class="arrow"></view>
+                <view class="dot"></view>
+            </view>
+        </view>
+        <!--/课程包选择-->
+
+        <view class="hb-wrap-box hb-wrap-box-1">
+            <scroll-view class="course-detail-list">
+                <view class="list-items">
+                    <view class="items-hd">
+                        <view class="hb-form">
+                            <!--<image class="img" src="/images/radio.png" alt=" " />-->
+                            <image class="img" src="/images/radio-checked.png" alt=" " />
+                        </view>
+                    </view>
+                    <view class="items-bd">
+                        <view class="items-bd-tit">我是一个培训课程的名字</view>
+                        <view class="items-bd-desc">
+                            <view class="label">3学时</view>
+                            <view class="pr40">讲师：张老师</view>
+                            <view>时长：02:02:02</view>
+                        </view>
+                    </view>
+                    <view class="items-ft items-ft-1">
+                        <view class="course-play"><image class="img" src="/images/icon-play.png" alt=" " /></view>
+                    </view>
+                </view>
+                <view class="list-items">
+                    <view class="items-hd">
+                        <view class="hb-form">
+                            <image class="img" src="/images/radio.png" alt=" " />
+                            <!--<image class="img" src="/images/radio-checked.png" alt=" " />-->
+                        </view>
+                    </view>
+                    <view class="items-bd">
+                        <view class="items-bd-tit">我是一个培训课程的名字</view>
+                        <view class="items-bd-desc">
+                            <view class="label">3学时</view>
+                            <view class="pr40">讲师：张老师</view>
+                            <view>时长：02:02:02</view>
+                        </view>
+                    </view>
+                    <view class="items-ft items-ft-1">
+                        <view class="course-play"><image class="img" src="/images/icon-play.png" alt=" " /></view>
+                    </view>
+                </view>
+                <view class="list-items">
+                    <view class="items-hd">
+                        <view class="hb-form">
+                            <image class="img" src="/images/radio.png" alt=" " />
+                            <!--<image class="img" src="/images/radio-checked.png" alt=" " />-->
+                        </view>
+                    </view>
+                    <view class="items-bd">
+                        <view class="items-bd-tit">我是一个培训课程的名字</view>
+                        <view class="items-bd-desc">
+                            <view class="label">3学时</view>
+                            <view class="pr40">讲师：张老师</view>
+                            <view>时长：02:02:02</view>
+                        </view>
+                    </view>
+                    <view class="items-ft items-ft-1">
+                        <view class="course-play"><image class="img" src="/images/icon-play.png" alt=" " /></view>
+                    </view>
+                </view>
+                <view class="list-items">
+                    <view class="items-hd">
+                        <view class="hb-form">
+                            <image class="img" src="/images/radio.png" alt=" " />
+                            <!--<image class="img" src="/images/radio-checked.png" alt=" " />-->
+                        </view>
+                    </view>
+                    <view class="items-bd">
+                        <view class="items-bd-tit">我是一个培训课程的名字</view>
+                        <view class="items-bd-desc">
+                            <view class="label">3学时</view>
+                            <view class="pr40">讲师：张老师</view>
+                            <view>时长：02:02:02</view>
+                        </view>
+                    </view>
+                    <view class="items-ft items-ft-1">
+                        <view class="course-play"><image class="img" src="/images/icon-play.png" alt=" " /></view>
+                    </view>
+                </view>
+                <view class="list-items">
+                    <view class="items-hd">
+                        <view class="hb-form">
+                            <image class="img" src="/images/radio.png" alt=" " />
+                            <!--<image class="img" src="/images/radio-checked.png" alt=" " />-->
+                        </view>
+                    </view>
+                    <view class="items-bd">
+                        <view class="items-bd-tit">我是一个培训课程的名字</view>
+                        <view class="items-bd-desc">
+                            <view class="label">3学时</view>
+                            <view class="pr40">讲师：张老师</view>
+                            <view>时长：02:02:02</view>
+                        </view>
+                    </view>
+                    <view class="items-ft items-ft-1">
+                        <view class="course-play"><image class="img" src="/images/icon-play.png" alt=" " /></view>
+                    </view>
+                </view>
+                <view class="list-items">
+                    <view class="items-hd">
+                        <view class="hb-form">
+                            <image class="img" src="/images/radio.png" alt=" " />
+                            <!--<image class="img" src="/images/radio-checked.png" alt=" " />-->
+                        </view>
+                    </view>
+                    <view class="items-bd">
+                        <view class="items-bd-tit">我是一个培训课程的名字</view>
+                        <view class="items-bd-desc">
+                            <view class="label">3学时</view>
+                            <view class="pr40">讲师：张老师</view>
+                            <view>时长：02:02:02</view>
+                        </view>
+                    </view>
+                    <view class="items-ft items-ft-1">
+                        <view class="course-play"><image class="img" src="/images/icon-play.png" alt=" " /></view>
+                    </view>
+                </view>
+                <view class="list-items">
+                    <view class="items-hd">
+                        <view class="hb-form">
+                            <image class="img" src="/images/radio.png" alt=" " />
+                            <!--<image class="img" src="/images/radio-checked.png" alt=" " />-->
+                        </view>
+                    </view>
+                    <view class="items-bd">
+                        <view class="items-bd-tit">我是一个培训课程的名字</view>
+                        <view class="items-bd-desc">
+                            <view class="label">3学时</view>
+                            <view class="pr40">讲师：张老师</view>
+                            <view>时长：02:02:02</view>
+                        </view>
+                    </view>
+                    <view class="items-ft items-ft-1">
+                        <view class="course-play"><image class="img" src="/images/icon-play.png" alt=" " /></view>
+                    </view>
+                </view>
+                <view class="list-items">
+                    <view class="items-hd">
+                        <view class="hb-form">
+                            <image class="img" src="/images/radio.png" alt=" " />
+                            <!--<image class="img" src="/images/radio-checked.png" alt=" " />-->
+                        </view>
+                    </view>
+                    <view class="items-bd">
+                        <view class="items-bd-tit">我是一个培训课程的名字</view>
+                        <view class="items-bd-desc">
+                            <view class="label">3学时</view>
+                            <view class="pr40">讲师：张老师</view>
+                            <view>时长：02:02:02</view>
+                        </view>
+                    </view>
+                    <view class="items-ft items-ft-1">
+                        <view class="course-play"><image class="img" src="/images/icon-play.png" alt=" " /></view>
+                    </view>
+                </view>
+                <view class="list-items">
+                    <view class="items-hd">
+                        <view class="hb-form">
+                            <image class="img" src="/images/radio.png" alt=" " />
+                            <!--<image class="img" src="/images/radio-checked.png" alt=" " />-->
+                        </view>
+                    </view>
+                    <view class="items-bd">
+                        <view class="items-bd-tit">我是一个培训课程的名字</view>
+                        <view class="items-bd-desc">
+                            <view class="label">3学时</view>
+                            <view class="pr40">讲师：张老师</view>
+                            <view>时长：02:02:02</view>
+                        </view>
+                    </view>
+                    <view class="items-ft items-ft-1">
+                        <view class="course-play"><image class="img" src="/images/icon-play.png" alt=" " /></view>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+    <view class="hb-tabbar">
+        <view class="left-box"><text class="ci">兴趣课程不纳入本班考核，您可根据实际需要进行选择学习</text></view>
+        <view class="hb-btn">确认选择</view>
+        <!--不可操作-->
+        <!--<view class="hb-btn disabled">确认选择</view>-->
+    </view>
+
+
+    <!--返回顶部-->
+    <view class="layer-box">
+        <view href="javascript:void(0);" class="a-items">
+            <image class="img" src="/images/icon-top.png" alt=" " />
+        </view>
+    </view>
+    <!--/返回顶部-->
+</view>

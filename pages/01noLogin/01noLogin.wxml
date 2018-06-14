@@ -1,0 +1,19 @@
+<!--未关联-->
+<view class="contain">
+  <view class="p50 tc">
+    <image class="login-img" src="/images/login-bg.png" alt=" " />
+    <view class="fs32">请登录，获取我的学习</view>
+    <view class="btn-primary mt60">登 录</view>
+    <view class="btn-default mt20">注 册</view>
+    <view class="qr-code-box">
+      <view class="qr-code-panel">
+        <image class="qr-code-border" src="/images/qr-code-border.png" alt=" " />
+        <image class="qr-code" src="/images/qrcode.png" alt=" " />
+      </view>
+      <view class="info">
+        <view class="tit">华博教育继教V6.0</view>
+        <view class="tips mt10">长按识别图中二维码</view>
+      </view>
+    </view>
+  </view>
+</view>

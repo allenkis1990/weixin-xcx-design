@@ -1,0 +1,22 @@
+<!--住宿信息-弹窗-->
+<view class="contain">
+    <view class="hd-dialog hd-dialog-3">
+        <view class="weui-mask"></view>
+        <view class="weui-dialog weui-dialog-2">
+            <view class="dialog-pic"><image class="img" src="/images/lodging-img.png" /></view>
+            <view class="weui-dialog__hd weui-dialog__hd-1"><view class="weui-dialog__title">住宿信息</view></view>
+            <view class="weui-dialog__bd weui-dialog__bd-1">
+                <view class="situation-info-box">
+                    <view class="info-desc info-desc-2"><view class="lt">酒店名称：</view><view class="rt">福建戴维斯大酒店</view></view>
+                    <view class="info-desc info-desc-2"><view class="lt">酒店地址：</view><view class="rt">福建省福州市工业路611号福建省福州市工业路611号福建省福州市工业路611号</view></view>
+                    <view class="info-desc info-desc-2"><view class="lt">楼号/楼名：</view><view class="rt">海峡技术转移中心</view></view>
+                    <view class="info-desc info-desc-2"><view class="lt">房<text class="txt">号</text>：</view><view class="rt">1313</view></view>
+                    <view class="info-desc info-desc-2"><view class="lt">房<text class="txt">型</text>：</view><view class="rt">2585</view></view>
+                </view>
+            </view>
+            <view class="weui-dialog__ft">
+                <view class="weui-dialog__btn weui-dialog__btn_primary">知道了</view>
+            </view>
+        </view>
+    </view>
+</view>

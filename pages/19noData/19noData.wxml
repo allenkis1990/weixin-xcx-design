@@ -1,0 +1,9 @@
+<!--空数据-->
+<view class="contain">
+    <view class="p50">
+        <view class="no-data-box">
+            <image class="no-data-img" src="/images/no-data-img.png" alt=" " />
+            <view class="no-data-txt">暂时还没有数据~</view>
+        </view>
+    </view>
+</view>

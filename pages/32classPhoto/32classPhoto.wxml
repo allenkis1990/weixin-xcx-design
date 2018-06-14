@@ -1,0 +1,67 @@
+<!--班级风采-->
+<view class="contain">
+    <view class="of-h">
+        <view class="view-pos">
+            <view class="course-detail-hd">
+                <view class="course-detail-img">
+                    <image class="img"  mode="widthFix" src="/images/default-photo.jpg" alt=" " />
+                </view>
+                <view class="course-info course-info-1">
+                    <view class="inspection-situation"><image class="img" src="/images/icon-img.png" alt=" " />（256）</view>
+                </view>
+            </view>
+        </view>
+        <view class="course-detail-tab-bd course-detail-tab-bd-4">
+            <view class="class-photo-list">
+                <view class="photo-box">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+                <view class="photo-box">
+                    <image class="img"  mode="widthFix" src="/images/default-photo.jpg" alt=" " />
+                </view>
+                <view class="photo-box">
+                    <image class="img"  mode="widthFix" src="/images/user-img.jpg" alt=" " />
+                </view>
+                <view class="photo-box">
+                    <image class="img"  mode="widthFix" src="/images/prove-img.jpg" alt=" " />
+                </view>
+                <view class="photo-box">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+                <view class="photo-box">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+                <view class="photo-box">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+                <view class="photo-box">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+                <view class="photo-box">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+                <view class="photo-box">
+                    <image class="img"  mode="widthFix" src="/images/default-photo.jpg" alt=" " />
+                </view>
+                <view class="photo-box">
+                    <image class="img"  mode="widthFix" src="/images/user-img.jpg" alt=" " />
+                </view>
+                <view class="photo-box">
+                    <image class="img"  mode="widthFix" src="/images/prove-img.jpg" alt=" " />
+                </view>
+                <view class="photo-box">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+                <view class="photo-box">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+                <view class="photo-box">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+                <view class="photo-box">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

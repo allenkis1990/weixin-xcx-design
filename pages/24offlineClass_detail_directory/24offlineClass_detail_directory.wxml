@@ -1,0 +1,195 @@
+<!--面授班课程目录-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <view class="view-pos">
+            <view class="course-detail-hd">
+                <view class="course-detail-img">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+                <view class="btn-primary">查看考核</view>
+                <view class="status-label-box ing">进行中</view>
+                <view class="seal seal-1"><image class="img" src="/images/seal-pass.png" alt=" " /></view>
+                <view class="course-info">
+                    <image class="mask" src="/images/course-img-mask.png" alt=" " />
+                    <view class="course-name-1">
+                        <image class="img" src="/images/icon-address.png" alt=" " />
+                        <text class="txt">当前位置：海峡技术转移中心海峡技术转移中心海峡技术转移中心</text>
+                        <view class="btn">获取授权</view>
+                    </view>
+                </view>
+            </view>
+            <view class="course-detail-tab course-detail-tab-1">
+                <view class="tab-items current">
+                    <view class="ico">
+                        <!--<image class="img" src="/images/course-tab-course.png" alt=" " />-->
+                        <image class="img" src="/images/course-tab-course-current.png" alt=" " />
+                    </view>
+                    <view class="txt">
+                        <view>课程目录</view>
+                    </view>
+                    <image class="current-bg" src="/images/tab-current-bg.jpg" alt=" " />
+                </view>
+                <view class="tab-items">
+                    <view class="ico">
+                        <image class="img" src="/images/course-tab-exam.png" alt=" " />
+                        <!--<image class="img" src="/images/course-tab-exam-current.png" alt=" " />-->
+                    </view>
+                    <view class="txt">
+                        <view>测验模块</view>
+                    </view>
+                    <image class="current-bg" src="/images/tab-current-bg.jpg" alt=" " />
+                </view>
+                <view class="tab-items">
+                    <view class="ico">
+                        <image class="img" src="/images/course-tab-questionnaire.png" alt=" " />
+                        <!--<image class="img" src="/images/course-tab-questionnaire-current.png" alt=" " />-->
+                    </view>
+                    <view class="txt">
+                        <view>问卷调查</view>
+                    </view>
+                    <image class="current-bg" src="/images/tab-current-bg.jpg" alt=" " />
+                </view>
+            </view>
+        </view>
+        <view class="course-detail-tab-bd course-detail-tab-bd-1">
+            <view class="exam-panel-hd exam-panel-hd-1">
+                <view class="hd-info"><image class="img" src="/images/icon-star.png" alt=" " />要求签到3次，签退3次。您已完成签到2次，签退2次。</view>
+            </view>
+            <view class="sign-in-list">
+                <view class="sign-in-items">
+                    <view class="date"><text>12/05</text><text>2018</text></view>
+                    <view class="sign-in-hd">
+                        <view class="tit">我是这个课程的名称名称我是这个课程的名称名称</view>
+                        <image class="img" src="/images/arrow-open.png" alt=" " />
+                        <!--<image class="img" src="/images/arrow-close.png" alt=" " />-->
+                    </view>
+                    <view class="sign-in-bd">
+                        <view class="label">授课时间</view>
+                        <view class="bd">9:00-10:00</view>
+                    </view>
+                    <view class="sign-in-bd">
+                        <view class="label">授课教师</view>
+                        <view class="bd">隔壁老王</view>
+                    </view>
+                    <view class="sign-in-bd ai-t">
+                        <view class="label">授课地点</view>
+                        <view class="bd">福建省福州市鼓楼区工业路611号海峡转移中心13层</view>
+                    </view>
+                    <view class="sign-in-bd">
+                        <view class="label">签到时间</view>
+                        <view class="bd">8:55-9:00</view>
+                        <view class="hb-btn success">已签到</view>
+                    </view>
+                    <view class="sign-in-bd">
+                        <view class="label">签退时间</view>
+                        <view class="bd">18:55-19:00</view>
+                        <view class="hb-btn">已签退</view>
+                    </view>
+                    <view class="sign-in-bd">
+                        <view class="label">评价</view>
+                        <view class="bd">教师课程评价</view>
+                        <view class="arrow"></view>
+                    </view>
+                    <view class="sign-in-bd">
+                        <view class="label">评价</view>
+                        <view class="bd">
+                            <view>教师课程评价</view>
+                            <view class="evaluation-box">
+                                <image class="img" src="/images/evaluate-star-bright.png" />
+                                <image class="img" src="/images/evaluate-star-bright.png" />
+                                <image class="img" src="/images/evaluate-star-bright.png" />
+                                <image class="img" src="/images/evaluate-star-bright.png" />
+                                <image class="img" src="/images/evaluate-star-gray.png" />
+                                <text class="txt">推荐</text>
+                            </view>
+                        </view>
+                        <view class="arrow"></view>
+                    </view>
+                    <view class="sign-in-bd">
+                        <view class="label">参考资料</view>
+                        <view class="bd">学习资料包 -（10）</view>
+                        <view class="arrow"></view>
+                    </view>
+                </view>
+                <view class="sign-in-items">
+                    <view class="date"><text>12/05</text><text>2018</text></view>
+                    <view class="sign-in-hd">
+                        <view class="tit">我是这个课程的名称名称我是这个课程的名称名称</view>
+                        <image class="img" src="/images/arrow-open.png" alt=" " />
+                        <!--<image class="img" src="/images/arrow-close.png" alt=" " />-->
+                    </view>
+                    <view class="sign-in-bd">
+                        <view class="label">授课时间</view>
+                        <view class="bd">9:00-10:00</view>
+                    </view>
+                    <view class="sign-in-bd">
+                        <view class="label">授课教师</view>
+                        <view class="bd">隔壁老王</view>
+                    </view>
+                    <view class="sign-in-bd ai-t">
+                        <view class="label">授课地点</view>
+                        <view class="bd">福建省福州市鼓楼区工业路611号海峡转移中心13层</view>
+                    </view>
+                    <view class="sign-in-bd">
+                        <view class="label">签到时间</view>
+                        <view class="bd">8:55-9:00</view>
+                        <view class="hb-btn success">已签到</view>
+                    </view>
+                    <view class="sign-in-bd">
+                        <view class="label">签退时间</view>
+                        <view class="bd">18:55-19:00</view>
+                        <view class="hb-btn fail">漏签退</view>
+                    </view>
+                    <view class="sign-in-bd">
+                        <view class="label">评价</view>
+                        <view class="bd">教师课程评价</view>
+                        <view class="arrow"></view>
+                    </view>
+                    <view class="sign-in-bd">
+                        <view class="label">参考资料</view>
+                        <view class="bd">学习资料包 -（10）</view>
+                        <view class="arrow"></view>
+                    </view>
+                </view>
+                <view class="sign-in-items">
+                    <view class="date"><text>12/05</text><text>2018</text></view>
+                    <view class="sign-in-hd">
+                        <view class="tit">我是这个课程的名称名称我是这个课程的名称名称</view>
+                        <!--<image class="img" src="/images/arrow-open.png" alt=" " />-->
+                        <image class="img" src="/images/arrow-close.png" alt=" " />
+                    </view>
+                    <view class="sign-in-bd">
+                        <view class="label">授课时间</view>
+                        <view class="bd">9:00-10:00</view>
+                    </view>
+                    <view class="sign-in-bd">
+                        <view class="label">授课教师</view>
+                        <view class="bd">隔壁老王</view>
+                    </view>
+                    <view class="sign-in-bd ai-t">
+                        <view class="label">授课地点</view>
+                        <view class="bd">福建省福州市鼓楼区工业路611号海峡转移中心13层</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="hb-tabbar hb-tabbar-4">
+        <view class="tabbar-items">
+            <image class="tabbar-icon" src="/images/tabbar-contact.png" alt=" " />
+            <text>通讯录</text>
+        </view>
+        <view class="tabbar-items">
+            <image class="tabbar-icon" src="/images/tabbar-notice.png" alt=" " />
+            <text>通知</text>
+        </view>
+        <view class="tabbar-items">
+            <image class="tabbar-icon" src="/images/tabbar-photo.png" alt=" " />
+            <text>班级风采</text>
+        </view>
+        <view class="tabbar-items">
+            <image class="tabbar-icon" src="/images/tabbar-lodging.png" alt=" " />
+            <text>住宿信息</text>
+        </view>
+    </view>
+</view>

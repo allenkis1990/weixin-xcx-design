@@ -1,0 +1,198 @@
+<!--培训班详情-兴趣课程-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <view class="view-pos">
+            <view class="course-detail-hd">
+                <view class="course-detail-img">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+                <view class="year-label-box">
+                    <image class="img" src="/images/year-label.png" alt=" " />
+                    <text class="year-label">2017</text>
+                </view>
+                <view class="seal"><image class="img" src="/images/seal-pass.png" alt=" " /></view>
+                <view class="course-info">
+                    <image class="mask" src="/images/course-img-mask.png" alt=" " />
+                    <view class="course-name">我是一个培训班的名称培训班的名称培训班的名称</view>
+                    <view class="inspection-situation"><image class="img" src="/images/icon-test-intro.png" alt=" " />查看考核</view>
+                </view>
+            </view>
+            <view class="course-detail-tab">
+                <view class="tab-items">
+                    <view class="ico">
+                        <image class="img" src="/images/course-tab-course.png" alt=" " />
+                        <!--<image class="img" src="/images/course-tab-course-current.png" alt=" " />-->
+                    </view>
+                    <view class="txt">
+                        <view>课程</view>
+                        <view class="sub">已学80%</view>
+                    </view>
+                    <image class="current-bg" src="/images/tab-current-bg.jpg" alt=" " />
+                </view>
+                <view class="tab-items">
+                    <view class="ico">
+                        <image class="img" src="/images/course-tab-exam.png" alt=" " />
+                        <!--<image class="img" src="/images/course-tab-exam-current.png" alt=" " />-->
+                    </view>
+                    <view class="txt">
+                        <view>测验模块</view>
+                        <view class="sub">已得80分</view>
+                    </view>
+                    <image class="current-bg" src="/images/tab-current-bg.jpg" alt=" " />
+                </view>
+                <view class="tab-items current">
+                    <view class="ico">
+                        <!--<image class="img" src="/images/course-tab-like.png" alt=" " />-->
+                        <image class="img" src="/images/course-tab-like-current.png" alt=" " />
+                    </view>
+                    <view class="txt">
+                        <view>兴趣课程</view>
+                        <view class="sub">已学3门</view>
+                    </view>
+                    <image class="current-bg" src="/images/tab-current-bg.jpg" alt=" " />
+                </view>
+            </view>
+        </view>
+        <view class="course-detail-tab-bd">
+            <!--课程包选择-->
+            <view class="hb-year-box hb-year-box-4">
+                <view class="year-tit year-tit-1">当前课程包</view>
+                <view class="year-bd year-bd-1">
+                    <!--选课未达标 添加warning-bg-->
+                    <view class="course-bag-name">我是课程包名称全称全称全称</view>
+                </view>
+                <view class="change-label open">
+                    <view class="arrow"></view>
+                    <view class="dot"></view>
+                </view>
+            </view>
+            <!--/课程包选择-->
+            <!--课程包展开-->
+            <view class="select-box" style="top: 500rpx; display: none">
+                <view class="select-mask"></view>
+                <view class="select-panel">
+                    <view class="select-bd">
+                        <view class="items"><view class="txt">我是课程包名称全称全称全称1</view></view>
+                        <view class="items current"><view class="txt">我是课程包名称全称全称全称2</view></view>
+                        <view class="items"><view class="txt">我是课程包名称全称全称全称3</view></view>
+                        <view class="items"><view class="txt">我是课程包名称全称全称全称4</view></view>
+                        <view class="items"><view class="txt">我是课程包名称全称全称全称5</view></view>
+                        <view class="items"><view class="txt">我是课程包名称全称全称全称6</view></view>
+                        <view class="items"><view class="txt">我是课程包名称全称全称全称7</view></view>
+                    </view>
+                    <view class="select-ft">
+                        <view class="ci">说明：</view><view class="warning-bg"></view>选课未达标
+                    </view>
+                </view>
+            </view>
+            <!--/课程包展开-->
+            <scroll-view>
+                <view class="course-detail-list">
+                    <view class="list-items">
+                        <view class="items-bd bor-r">
+                            <view class="items-bd-tit">我是一个培训课程的名字</view>
+                            <view class="flex">
+                                <view class="line-process">
+                                    <view class="process-bd">
+                                        <view class="current" style="width: 78%;"></view>
+                                    </view>
+                                    <view class="process-ft">78%</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="items-ft">
+                            <view class="course-play">
+                                <image class="img" src="/images/icon-play.png" alt=" " />
+                            </view>
+                        </view>
+                    </view>
+                    <view class="list-items">
+                        <view class="items-bd bor-r">
+                            <view class="items-bd-tit">我是一个培训课程的名字</view>
+                            <view class="flex">
+                                <view class="line-process">
+                                    <view class="process-bd">
+                                        <view class="current" style="width: 78%;"></view>
+                                    </view>
+                                    <view class="process-ft">78%</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="items-ft">
+                            <view class="course-play">
+                                <image class="img" src="/images/icon-play.png" alt=" " />
+                            </view>
+                        </view>
+                    </view>
+                    <view class="list-items">
+                        <view class="items-bd bor-r">
+                            <view class="items-bd-tit">我是一个培训课程的名字</view>
+                            <view class="flex">
+                                <view class="line-process">
+                                    <view class="process-bd">
+                                        <view class="current" style="width: 78%;"></view>
+                                    </view>
+                                    <view class="process-ft">78%</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="items-ft">
+                            <view class="course-play">
+                                <image class="img" src="/images/icon-play.png" alt=" " />
+                            </view>
+                        </view>
+                    </view>
+                    <view class="list-items">
+                        <view class="items-bd bor-r">
+                            <view class="items-bd-tit">我是一个培训课程的名字</view>
+                            <view class="flex">
+                                <view class="line-process">
+                                    <view class="process-bd">
+                                        <view class="current" style="width: 78%;"></view>
+                                    </view>
+                                    <view class="process-ft">78%</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="items-ft">
+                            <view class="course-play">
+                                <image class="img" src="/images/icon-play.png" alt=" " />
+                            </view>
+                        </view>
+                    </view>
+                    <view class="list-items">
+                        <view class="items-bd bor-r">
+                            <view class="items-bd-tit">我是一个培训课程的名字</view>
+                            <view class="flex">
+                                <view class="line-process">
+                                    <view class="process-bd">
+                                        <view class="current" style="width: 78%;"></view>
+                                    </view>
+                                    <view class="process-ft">78%</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="items-ft">
+                            <view class="course-play">
+                                <image class="img" src="/images/icon-play.png" alt=" " />
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </scroll-view>
+            <view class="p50">
+                <view class="no-data-box">
+                    <image class="no-data-img" src="/images/no-data-img.png" alt=" " />
+                    <view class="no-data-txt">无兴趣课程，请点击右下角的“兴趣课程”进入选择我课程！</view>
+                </view>
+            </view>
+            <view class="hb-tabbar">
+                <view class="left-box"><text class="ci">兴趣课程不纳入本班考核，您可根据实际需要进行选择学习</text></view>
+                <view class="hb-btn">+ 兴趣课程</view>
+                <!--不可操作-->
+                <!--<view class="hb-btn disabled">+ 去选课</view>-->
+            </view>
+        </view>
+    </view>
+</view>
+

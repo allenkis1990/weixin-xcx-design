@@ -1,0 +1,116 @@
+<!--学习档案-自主选课（合并打印）-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <!--tab-->
+        <view class="hb-tab-tit">
+            <view class="tab-tit-items">
+                <text class="items-name">培训班</text>
+                <image class="current-img" src="/images/tab-current-bg.jpg" />
+            </view>
+            <view class="tab-tit-items current">
+                <text class="items-name">自主选课</text>
+                <image class="current-img" src="/images/tab-current-bg.jpg" />
+            </view>
+        </view>
+        <!--/tab-->
+
+        <!--年度选择-->
+        <view class="hb-year-box hb-year-box-1">
+            <view class="year-tit">年度</view>
+            <view class="year-bd">
+                <text class="items current">全部</text>
+                <text class="items">2017</text>
+                <text class="items">2016</text>
+                <text class="items">2015</text>
+                <text class="items">2014</text>
+                <text class="items">2013</text>
+                <text class="items">2012</text>
+            </view>
+        </view>
+        <!--/年度选择-->
+
+        <!--班级列表-->
+        <view class="hb-wrap-box hb-wrap-box-3">
+            <view class="hb-panel">
+                <scroll-view class="hb-panel-bd">
+                    <view class="hb-media-box">
+                        <view class="hb-form mr20">
+                            <!--<image class="img" src="/images/radio.png" alt=" " />-->
+                            <image class="img" src="/images/radio-checked.png" alt=" " />
+                        </view>
+                        <view class="hb-media-box-hd">
+                            <image class="hb-media-box-thumb" src="/images/prove-img.jpg" />
+                        </view>
+                        <view class="hb-media-box-bd">
+                            <view class="hb-media-box-title">这里是一个培训班名称这里是一个培训班名称</view>
+                            <view class="hb-media-box-desc">年度：2017年</view>
+                            <view class="hb-media-box-desc">科目：专业课</view>
+                            <view class="hb-media-box-desc">学时：30</view>
+                        </view>
+                    </view>
+                    <view class="hb-media-box">
+                        <view class="hb-form mr20">
+                            <!--<image class="img" src="/images/radio.png" alt=" " />-->
+                            <image class="img" src="/images/radio-checked.png" alt=" " />
+                        </view>
+                        <view class="hb-media-box-hd">
+                            <image class="hb-media-box-thumb" src="/images/prove-img.jpg" />
+                        </view>
+                        <view class="hb-media-box-bd">
+                            <view class="hb-media-box-title">这里是一个培训班名称这里是一个培训班名称</view>
+                            <view class="hb-media-box-desc">年度：2017年</view>
+                            <view class="hb-media-box-desc">科目：专业课</view>
+                            <view class="hb-media-box-desc">学时：30</view>
+                        </view>
+                    </view>
+                    <view class="hb-media-box">
+                        <view class="hb-form mr20">
+                            <image class="img" src="/images/radio.png" alt=" " />
+                            <!--<image class="img" src="/images/radio-checked.png" alt=" " />-->
+                        </view>
+                        <view class="hb-media-box-hd">
+                            <image class="hb-media-box-thumb" src="/images/prove-img.jpg" />
+                        </view>
+                        <view class="hb-media-box-bd">
+                            <view class="hb-media-box-title">这里是一个培训班名称这里是一个培训班名称</view>
+                            <view class="hb-media-box-desc">年度：2017年</view>
+                            <view class="hb-media-box-desc">科目：专业课</view>
+                            <view class="hb-media-box-desc">学时：30</view>
+                        </view>
+                    </view>
+                    <view class="hb-media-box">
+                        <view class="hb-form mr20">
+                            <image class="img" src="/images/radio.png" alt=" " />
+                            <!--<image class="img" src="/images/radio-checked.png" alt=" " />-->
+                        </view>
+                        <view class="hb-media-box-hd">
+                            <image class="hb-media-box-thumb" src="/images/prove-img.jpg" />
+                        </view>
+                        <view class="hb-media-box-bd">
+                            <view class="hb-media-box-title">这里是一个培训班名称这里是一个培训班名称</view>
+                            <view class="hb-media-box-desc">年度：2017年</view>
+                            <view class="hb-media-box-desc">科目：专业课</view>
+                            <view class="hb-media-box-desc">学时：30</view>
+                        </view>
+                    </view>
+                </scroll-view>
+            </view>
+        </view>
+        <!--/班级列表-->
+    </view>
+
+    <view class="hb-tabbar">
+        <view class="left-box">共 20 份培训证明，已选 <text class="ci">1</text> 份，共 <text class="ci">8</text> 学时</view>
+        <view class="hb-btn">合并打印证明</view>
+        <!--不可操作-->
+        <!--<view class="hb-btn disabled">合并打印证明</view>-->
+    </view>
+
+    <!--返回顶部-->
+    <view class="layer-box">
+        <view class="a-items">
+            <image class="img" src="/images/icon-top.png" alt=" " />
+        </view>
+    </view>
+    <!--/返回顶部-->
+</view>

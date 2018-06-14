@@ -1,0 +1,74 @@
+<!--练习-历史练习题-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <view class="exam-panel-hd">
+            <view class="hd-info">单选题</view>
+            <view class="question-num cb"><image class="img" src="/images/icon-exam-screen.png" alt=" " />筛选题型</view>
+        </view>
+        <view class="exam-panel exam-panel-1">
+            <view class="exam-panel-bd">
+                <view class="question-tit"><text>1/5、</text><text>为了预防和控制甲型H1N1流感，国家抓紧研制疫苗并免费提供给人们注射。该过程中注射的主要物质及采取的措施分别称为(   )（2分）</text></view>
+                <!--多选题添加 multiple-choice-->
+                <view class="question-select">
+                    <!--选中的选项添加 selected-->
+                    <view class="select-items selected"><view class="items-num">A</view><view class="items-txt">抗原，控制传染源</view></view>
+                    <view class="select-items"><view class="items-num">B</view><view class="items-txt">抗原，保护易感人群</view></view>
+                    <view class="select-items"><view class="items-num">C</view><view class="items-txt">抗体，保护易感人群</view></view>
+                    <view class="select-items"><view class="items-num">D</view><view class="items-txt">抗体，切断传播途径</view></view>
+                </view>
+            </view>
+            <view class="question-analysis">
+                <view class="question-analysis-bd">
+                    <view class="flex mb10">
+                        <view class="question-result right">
+                            <image class="img" src="/images/icon-right.png" alt=" " />回答正确
+                        </view>
+                        <view>
+                            <text class="c9">正确答案</text><text class="cb ml20">AB</text>
+                        </view>
+                        <!--回答错误-->
+                        <!--<view>-->
+                        <!--<text class="c9 ml60">我的答案</text><text class="cr ml20">AC</text>-->
+                        <!--</view>-->
+                        <!--回答正确-->
+                        <view>
+                            <text class="c9 ml60">我的答案</text><text class="cb ml20">AC</text>
+                        </view>
+                    </view>
+                    <view class="flex mb10">
+                        <view class="question-result error">
+                            <image class="img" src="/images/icon-error.png" alt=" " />回答错误
+                        </view>
+                        <text class="c9">正确答案</text><text class="cb ml20">AB</text>
+                        <!--回答错误-->
+                        <text class="c9 ml60">我的答案</text><text class="cr ml20">AC</text>
+                        <!--回答正确-->
+                        <!--<text class="c9 ml60">我的答案</text><text class="cb ml20">AC</text>-->
+                    </view>
+                    <view class="mt10">
+                        <view class="c9">解析</view>
+                        <view class="analysis-txt">解释分析，《宋史·儒林传一·孙奭》：“有从奭问经者， 奭为解析微指，人人惊服。”为了预防和控制甲型H1N1流感，国家抓紧研制疫苗并免费提供给人们注射。</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="hb-tabbar hb-tabbar-1">
+        <view class="hb-btn-1">
+            <view class="ico">
+                <image class="img" src="/images/exam-prev.png" alt=" " />
+                <!--<image class="img" src="/images/exam-prev-disabled.png" alt=" " />-->
+            </view>
+            <text>上一题</text>
+        </view>
+        <view class="hb-btn-1">
+            <text>下一题</text>
+            <view class="ico ico-next">
+                <view class="ico">
+                    <image class="img" src="/images/exam-next.png" alt=" " />
+                    <!--<image class="img" src="/images/exam-next-disabled.png" alt=" " />-->
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

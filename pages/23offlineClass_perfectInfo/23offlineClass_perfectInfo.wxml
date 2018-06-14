@@ -1,0 +1,53 @@
+<!--完善报名信息-弹窗-->
+<view class="contain">
+    <view class="hd-dialog hd-dialog-3">
+        <view class="weui-mask"></view>
+        <view class="weui-dialog weui-dialog-2">
+            <view class="dialog-pic"><image class="img" src="/images/info-img.png" /></view>
+            <view class="weui-dialog__hd weui-dialog__hd-1"><view class="weui-dialog__title">完善报名信息</view></view>
+            <view class="weui-dialog__bd weui-dialog__bd-1">
+                <view class="hb-warm-tips">
+                    <image class="ico-tips" src="/images/icon-tips.png" />
+                    <text class="tips-txt">请完善班级报名信息，并设置公开个人联系方式，以便同班同学交流互动</text>
+                </view>
+                <view class="weui-panel hb-panel-4 mt20">
+                    <view class="weui-cell">
+                        <view class="weui-cell__hd"><view class="weui-label"><text class="star">*</text>姓名</view></view>
+                        <view class="weui-cell__bd">
+                            <input class="weui-input" type="text" placeholder="请输入" />
+                        </view>
+                    </view>
+                    <view class="weui-cell">
+                        <view class="weui-cell__hd"><view class="weui-label"><text class="star">*</text>手机号</view></view>
+                        <view class="weui-cell__bd">
+                            <input class="weui-input" type="text" placeholder="请输入" />
+                        </view>
+                    </view>
+                    <view class="weui-cell">
+                        <view class="weui-cell__hd"><view class="weui-label"><text class="star">*</text>单位名称</view></view>
+                        <view class="weui-cell__bd">
+                            <input class="weui-input" type="text" placeholder="请输入" />
+                        </view>
+                    </view>
+                    <view class="weui-cell">
+                        <view class="weui-cell__hd"><view class="weui-label"><text class="star">*</text>职位</view></view>
+                        <view class="weui-cell__bd">
+                            <input class="weui-input" type="text" placeholder="请输入" />
+                        </view>
+                    </view>
+                    <view class="weui-cell mt40">
+                        <image class="switch" src="/images/switch-close.png" />
+                        <text class="c9 fs28 ml20">不公开个人联系方式</text>
+                    </view>
+                    <!--<view class="weui-cell mt40">-->
+                        <!--<image class="switch" src="/images/switch-open.png" />-->
+                        <!--<text class="c9 fs28 ml20">公开个人联系方式</text>-->
+                    <!--</view>-->
+                </view>
+            </view>
+            <view class="weui-dialog__ft">
+                <view class="weui-dialog__btn weui-dialog__btn_primary">保存</view>
+            </view>
+        </view>
+    </view>
+</view>

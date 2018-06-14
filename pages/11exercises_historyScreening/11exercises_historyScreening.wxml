@@ -1,0 +1,26 @@
+<!--练习题历史-筛选题型-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <view class="exam-panel-hd">
+            <view class="hd-info">单选题</view>
+            <view class="question-num cb"><image class="img" src="/images/icon-exam-screen.png" alt=" " />筛选题型</view>
+        </view>
+        <!--课程包展开-->
+        <view class="select-box select-box-1">
+            <view class="select-mask"></view>
+            <view class="select-panel">
+                <view class="select-bd">
+                    <view class="items"><view class="txt">全部试题（共100题）</view></view>
+                    <view class="items current"><view class="txt">单选题（共70题）</view></view>
+                    <view class="items"><view class="txt">判断题（共10题）</view></view>
+                    <view class="items"><view class="txt">多选题（共20题）</view></view>
+                </view>
+                <view class="select-ft">
+                    <view class="ci">注：</view>同一试题重复练习多次也视为1道
+                </view>
+            </view>
+        </view>
+        <!--/课程包展开-->
+    </view>
+
+</view>

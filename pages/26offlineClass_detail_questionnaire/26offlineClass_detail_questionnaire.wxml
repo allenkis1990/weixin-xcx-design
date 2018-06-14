@@ -1,0 +1,101 @@
+<!--面授班问卷调查-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <view class="view-pos">
+            <view class="course-detail-hd">
+                <view class="course-detail-img">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+                <view class="btn-primary">查看考核</view>
+                <view class="status-label-box ing">进行中</view>
+                <!--<view class="seal seal-1"><image class="img" src="/images/seal-pass.png" alt=" " /></view>-->
+                <view class="course-info">
+                    <image class="mask" src="/images/course-img-mask.png" alt=" " />
+                    <view class="course-name-1">
+                        <image class="img" src="/images/icon-address.png" alt=" " />
+                        <text class="txt">当前位置：海峡技术转移中心海峡技术转移中心海峡技术转移中心</text>
+                        <!--<view class="btn">获取授权</view>-->
+                    </view>
+                </view>
+            </view>
+            <view class="course-detail-tab course-detail-tab-1">
+                <view class="tab-items">
+                    <view class="ico">
+                        <image class="img" src="/images/course-tab-course.png" alt=" " />
+                        <!--<image class="img" src="/images/course-tab-course-current.png" alt=" " />-->
+                    </view>
+                    <view class="txt">
+                        <view>课程目录</view>
+                    </view>
+                    <image class="current-bg" src="/images/tab-current-bg.jpg" alt=" " />
+                </view>
+                <view class="tab-items">
+                    <view class="ico">
+                        <image class="img" src="/images/course-tab-exam.png" alt=" " />
+                        <!--<image class="img" src="/images/course-tab-exam-current.png" alt=" " />-->
+                    </view>
+                    <view class="txt">
+                        <view>测验模块</view>
+                    </view>
+                    <image class="current-bg" src="/images/tab-current-bg.jpg" alt=" " />
+                </view>
+                <view class="tab-items current">
+                    <view class="ico">
+                        <!--<image class="img" src="/images/course-tab-questionnaire.png" alt=" " />-->
+                        <image class="img" src="/images/course-tab-questionnaire-current.png" alt=" " />
+                    </view>
+                    <view class="txt">
+                        <view>问卷调查</view>
+                    </view>
+                    <image class="current-bg" src="/images/tab-current-bg.jpg" alt=" " />
+                </view>
+            </view>
+        </view>
+        <view class="course-detail-tab-bd course-detail-tab-bd-1">
+            <view class="block-box block-box-tit fs30">调查问卷</view>
+            <view class="course-detail-exam-info block-box block-box-1">
+                <view class="fs30 to">我是这次调查问卷的名称名称名称</view>
+                <!--<view class="situation-panel success">-->
+                    <!--<image class="situation-img" src="/images/situation-pass.png" />-->
+                    <!--<view class="txt">恭喜，您已完成问卷</view>-->
+                    <!--<view class="c9 fs26 mt10">（完成问卷时间：2018-05-21  12:12）</view>-->
+                <!--</view>-->
+                <view class="hb-warm-tips hb-warm-tips-2 mt20">
+                    <image class="ico-tips" src="/images/class-detail-warm.png" />
+                    <view class="tips-txt">
+                        <view>开放考试时间：</view>
+                        <view>2018-05-21  12:12  至  2018-05-21  13:12</view>
+                        <view class="mt10">问卷答题规则：</view>
+                        <view>一个帐号只允许问卷一次，不可重复问卷。</view>
+                    </view>
+                </view>
+                <view class="exam-enter-box pt30">
+                    <view class="exam-enter exam-enter-1">
+                        <view class="ico">
+                            <image class="img" src="/images/icon-exam-enter.png" alt=" " />
+                        </view>
+                        <view class="mt30">进入问卷</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="hb-tabbar hb-tabbar-4">
+        <view class="tabbar-items">
+            <image class="tabbar-icon" src="/images/tabbar-contact.png" alt=" " />
+            <text>通讯录</text>
+        </view>
+        <view class="tabbar-items">
+            <image class="tabbar-icon" src="/images/tabbar-notice.png" alt=" " />
+            <text>通知</text>
+        </view>
+        <view class="tabbar-items">
+            <image class="tabbar-icon" src="/images/tabbar-photo.png" alt=" " />
+            <text>班级风采</text>
+        </view>
+        <view class="tabbar-items">
+            <image class="tabbar-icon" src="/images/tabbar-lodging.png" alt=" " />
+            <text>住宿信息</text>
+        </view>
+    </view>
+</view>

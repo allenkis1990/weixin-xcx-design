@@ -1,0 +1,29 @@
+<!--考试-考试详情（未提交）-->
+<view class="contain exam-enter-panel">
+    <view class="countdown-box">
+        <view class="ico"><image class="img" src="/images/exam-countdown.png" alt=" " /></view>
+        <view class="txt">考试已用时间：00:56:56</view>
+    </view>
+    <view class="p50">
+        <image class="exam-img" src="/images/exam-enter-icon.png" alt=" " />
+        <view class="exam-name">考试名称考试名称考试名称考试名称</view>
+        <view class="exam-info">
+            <view>
+                <view class="ico">
+                    <image class="img" src="/images/exam-time.png" alt=" " />
+                </view>
+                <text>考试时长：60分钟</text>
+            </view>
+            <view>
+                <view class="ico">
+                    <image class="img" src="/images/exam-num.png" alt=" " />
+                </view>
+                <text>考试剩余次数：3次</text></view>
+        </view>
+        <view class="line-process">
+            <view class="info">已答22题/总题数100题</view>
+            <view class="process-bd"><view class="current" style="width: 22%"></view></view>
+        </view>
+        <view class="btn-full">进入考试</view>
+    </view>
+</view>

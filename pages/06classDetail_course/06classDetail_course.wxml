@@ -1,0 +1,244 @@
+<!--培训班详情-课程-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <view class="view-pos">
+            <view class="course-detail-hd">
+                <view class="course-detail-img">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+                <view class="year-label-box">
+                    <image class="img" src="/images/year-label.png" alt=" " />
+                    <text class="year-label">2017</text>
+                </view>
+                <view class="seal"><image class="img" src="/images/seal-pass.png" alt=" " /></view>
+                <view class="course-info">
+                    <image class="mask" src="/images/course-img-mask.png" alt=" " />
+                    <view class="course-name">我是一个培训班的名称培训班的名称培训班的名称</view>
+                    <view class="inspection-situation"><image class="img" src="/images/icon-test-intro.png" alt=" " />查看考核</view>
+                </view>
+            </view>
+            <view class="course-detail-tab">
+                <view class="tab-items current">
+                    <view class="ico">
+                        <!--<image class="img" src="/images/course-tab-course.png" alt=" " />-->
+                        <image class="img" src="/images/course-tab-course-current.png" alt=" " />
+                    </view>
+                    <view class="txt">
+                        <view>课程</view>
+                        <view class="sub">已学80%</view>
+                    </view>
+                    <image class="current-bg" src="/images/tab-current-bg.jpg" alt=" " />
+                </view>
+                <view class="tab-items">
+                    <view class="ico">
+                        <image class="img" src="/images/course-tab-exam.png" alt=" " />
+                        <!--<image class="img" src="/images/course-tab-exam-current.png" alt=" " />-->
+                    </view>
+                    <view class="txt">
+                        <view>测验模块</view>
+                        <view class="sub">已得80分</view>
+                    </view>
+                    <image class="current-bg" src="/images/tab-current-bg.jpg" alt=" " />
+                </view>
+                <view class="tab-items">
+                    <view class="ico">
+                        <image class="img" src="/images/course-tab-like.png" alt=" " />
+                        <!--<image class="img" src="/images/course-tab-like-current.png" alt=" " />-->
+                    </view>
+                    <view class="txt">
+                        <view>兴趣课程</view>
+                        <view class="sub">已学3门</view>
+                    </view>
+                    <image class="current-bg" src="/images/tab-current-bg.jpg" alt=" " />
+                </view>
+            </view>
+        </view>
+        <view class="course-detail-tab-bd">
+            <scroll-view>
+                <view class="course-detail-list">
+                    <view class="list-items-box">
+                        <view class="list-items">
+                            <view class="items-bd bor-r">
+                                <view class="items-bd-tit">我是一个培训课程的名字</view>
+                                <view class="items-bd-desc">
+                                    <view>3学时</view>
+                                    <view class="ml20">选修课 / </view>
+                                    <view class="course-bag-name">我是课程包名称课程包名称</view>
+                                </view>
+                                <view class="flex">
+                                    <view class="line-process">
+                                        <view class="process-bd">
+                                            <view class="current" style="width: 78%;"></view>
+                                        </view>
+                                        <view class="process-ft">78%</view>
+                                    </view>
+                                    <view class="relearning flex">
+                                        <image class="ico-relearning" src="/images/icon-relearn.png" alt=" " />
+                                        <!--<image class="ico-relearning" src="/images/icon-relearn-disabled.png" alt=" " />-->
+                                        <text class="txt">重学</text>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="items-ft">
+                                <view class="course-play">
+                                    <image class="img" src="/images/icon-play.png" alt=" " />
+                                    <view class="txt">学习</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="score-bar">
+                            <text class="label">得分: 608</text>
+                            <text class="ml20">课程练习：对</text> <text class="ci">3</text> 题，错<text class="ci"> 1 </text>题，未答<text class="ci"> 2 </text>题
+                        </view>
+                    </view>
+                    <view class="list-items-box">
+                        <view class="list-items">
+                            <view class="items-bd bor-r">
+                                <view class="items-bd-tit">我是一个培训课程的名字</view>
+                                <view class="items-bd-desc">
+                                    <view>3学时</view>
+                                    <view class="ml20">选修课 / </view>
+                                    <view class="course-bag-name">我是课程包名称课程包名称</view>
+                                </view>
+                                <view class="flex">
+                                    <view class="line-process">
+                                        <view class="process-bd">
+                                            <view class="current" style="width: 78%;"></view>
+                                        </view>
+                                        <view class="process-ft">78%</view>
+                                    </view>
+                                    <view class="relearning flex disabled">
+                                        <!--<image class="ico-relearning" src="/images/icon-relearn.png" alt=" " />-->
+                                        <image class="ico-relearning" src="/images/icon-relearn-disabled.png" alt=" " />
+                                        <text class="txt">重学</text>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="items-ft">
+                                <view class="course-play">
+                                    <image class="img" src="/images/icon-play.png" alt=" " />
+                                    <view class="txt">学习</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="score-bar">
+                            <text class="label">得分: 608</text>
+                            <text class="ml20">课程练习：对</text> <text class="ci">3</text> 题，错<text class="ci"> 1 </text>题，未答<text class="ci"> 2 </text>题
+                        </view>
+                    </view>
+                    <view class="list-items-box">
+                        <view class="list-items">
+                            <view class="items-bd bor-r">
+                                <view class="items-bd-tit">我是一个培训课程的名字</view>
+                                <view class="items-bd-desc">
+                                    <view>3学时</view>
+                                    <view class="ml20">选修课 / </view>
+                                    <view class="course-bag-name">我是课程包名称课程包名称</view>
+                                </view>
+                                <view class="flex">
+                                    <view class="line-process">
+                                        <view class="process-bd">
+                                            <view class="current" style="width: 78%;"></view>
+                                        </view>
+                                        <view class="process-ft">78%</view>
+                                    </view>
+                                    <view class="relearning flex">
+                                        <image class="ico-relearning" src="/images/icon-relearn.png" alt=" " />
+                                        <!--<image class="ico-relearning" src="/images/icon-relearn-disabled.png" alt=" " />-->
+                                        <text class="txt">重学</text>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="items-ft">
+                                <view class="course-play">
+                                    <image class="img" src="/images/icon-play.png" alt=" " />
+                                    <view class="txt">学习</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="score-bar">
+                            <text class="label">得分: 608</text>
+                            <text class="ml20">课程练习：对</text> <text class="ci">3</text> 题，错<text class="ci"> 1 </text>题，未答<text class="ci"> 2 </text>题
+                        </view>
+                    </view>
+                    <view class="list-items-box">
+                        <view class="list-items">
+                            <view class="items-bd bor-r">
+                                <view class="items-bd-tit">我是一个培训课程的名字</view>
+                                <view class="items-bd-desc">
+                                    <view>3学时</view>
+                                    <view class="ml20">选修课 / </view>
+                                    <view class="course-bag-name">我是课程包名称课程包名称</view>
+                                </view>
+                                <view class="flex">
+                                    <view class="line-process">
+                                        <view class="process-bd">
+                                            <view class="current" style="width: 78%;"></view>
+                                        </view>
+                                        <view class="process-ft">78%</view>
+                                    </view>
+                                    <view class="relearning flex">
+                                        <image class="ico-relearning" src="/images/icon-relearn.png" alt=" " />
+                                        <!--<image class="ico-relearning" src="/images/icon-relearn-disabled.png" alt=" " />-->
+                                        <text class="txt">重学</text>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="items-ft">
+                                <view class="course-play">
+                                    <image class="img" src="/images/icon-play.png" alt=" " />
+                                    <view class="txt">学习</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="score-bar">
+                            <text class="label">得分: 608</text>
+                            <text class="ml20">课程练习：对</text> <text class="ci">3</text> 题，错<text class="ci"> 1 </text>题，未答<text class="ci"> 2 </text>题
+                        </view>
+                    </view>
+                    <view class="list-items-box">
+                        <view class="list-items">
+                            <view class="items-bd bor-r">
+                                <view class="items-bd-tit">我是一个培训课程的名字</view>
+                                <view class="items-bd-desc">
+                                    <view>3学时</view>
+                                    <view class="ml20">选修课 / </view>
+                                    <view class="course-bag-name">我是课程包名称课程包名称</view>
+                                </view>
+                                <view class="flex">
+                                    <view class="line-process">
+                                        <view class="process-bd">
+                                            <view class="current" style="width: 78%;"></view>
+                                        </view>
+                                        <view class="process-ft">78%</view>
+                                    </view>
+                                    <view class="relearning flex">
+                                        <image class="ico-relearning" src="/images/icon-relearn.png" alt=" " />
+                                        <!--<image class="ico-relearning" src="/images/icon-relearn-disabled.png" alt=" " />-->
+                                        <text class="txt">重学</text>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="items-ft">
+                                <view class="course-play">
+                                    <image class="img" src="/images/icon-play.png" alt=" " />
+                                    <view class="txt">学习</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="score-bar">
+                            <text class="label">得分: 608</text>
+                            <text class="ml20">课程练习：对</text> <text class="ci">3</text> 题，错<text class="ci"> 1 </text>题，未答<text class="ci"> 2 </text>题
+                        </view>
+                    </view>
+                </view>
+            </scroll-view>
+            <view class="hb-tabbar">
+                <view class="left-box">已选15学时，<text class="ci">还需选8学时</text>，请继续选课</view>
+                <view class="hb-btn">+ 去选课</view>
+                <!--不可操作-->
+                <!--<view class="hb-btn disabled">+ 去选课</view>-->
+            </view>
+        </view>
+    </view>
+</view>

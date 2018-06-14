@@ -1,0 +1,10 @@
+<!--问卷完成-->
+<view class="contain exam-enter-panel">
+    <view class="p50">
+        <view class="situation-panel success">
+            <image class="situation-img" src="/images/situation-pass.png" />
+            <view class="txt txt-1">问卷到此结束，感谢您的参与！</view>
+        </view>
+        <view class="btn-full mt80">返回班级详情</view>
+    </view>
+</view>

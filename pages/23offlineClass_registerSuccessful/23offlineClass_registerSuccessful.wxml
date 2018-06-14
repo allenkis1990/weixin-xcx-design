@@ -1,0 +1,45 @@
+<!--报到成功-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <view class="hb-form-cells bor-b20">
+            <view class="tips-page mt60">
+                <image class="tips-img" src="/images/icon-success.png" alt=" " />
+                <view class="fs32 mt30">恭喜你，已完成报到且成功！</view>
+                <view class="fs32 mt20">《面授班名称》</view>
+            </view>
+        </view>
+        <view class="register-info-box">
+            <view class="box-hd">请关注以下信息</view>
+            <view class="box-bd">
+                <view class="situation-info-box">
+                    <view class="info-tit"><image class="icon" src="/images/icon-lodging.png" alt=" " />住宿信息</view>
+                    <view class="info-desc info-desc-2"><view class="lt">酒店名称：</view><view class="rt">福建戴维斯大酒店</view></view>
+                    <view class="info-desc info-desc-2"><view class="lt">酒店地址：</view><view class="rt">福建省福州市工业路611号福建省福州市工业路611号福建省福州市工业路611号</view></view>
+                    <view class="info-desc info-desc-2"><view class="lt">楼号/楼名：</view><view class="rt">海峡技术转移中心</view></view>
+                    <view class="info-desc info-desc-2"><view class="lt">房<text class="txt">号</text>：</view><view class="rt">1313</view></view>
+                    <view class="info-desc info-desc-2"><view class="lt">房<text class="txt">型</text>：</view><view class="rt">2585</view></view>
+                </view>
+                <view class="situation-info-box mt20">
+                    <view class="info-tit"><image class="icon" src="/images/icon-info.png" alt=" " />个人信息</view>
+                    <view class="info-desc info-desc-2 pb20">
+                        <view class="rt">公开个人信息，以便互相沟通</view>
+                        <image class="switch" src="/images/switch-open.png" />
+                    </view>
+                </view>
+            </view>
+            <!--<view class="no-data-box no-data-box-1">-->
+                <!--<image class="no-data-img" src="/images/lodging-img.png" alt=" " />-->
+                <!--<view class="no-data-txt">无住宿信息，可能无提供住宿服务，或教务人员未上传住宿信息，可联系班主任确认。</view>-->
+            <!--</view>-->
+        </view>
+    </view>
+    <view class="hb-tabbar hb-tabbar-3">
+        <view class="hb-btn-1">
+            <text>返回面授班列表</text>
+        </view>
+        <view class="hb-btn-1">
+            <text>进入面授班</text>
+        </view>
+    </view>
+</view>
+

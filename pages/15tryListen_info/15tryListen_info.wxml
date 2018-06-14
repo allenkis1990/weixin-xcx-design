@@ -1,0 +1,96 @@
+<!--k课程试听-信息-->
+<view class="contain">
+    <view class="view-pos">
+        <view class="hb-video-box">
+            <view class="video-top-bar">
+                <view class="top-bar-hd">
+                    <image class="img" src="/images/icon-return.png" alt=" " />
+                </view>
+                <view class="top-bar-bd">
+                    <text class="course-name">我是课程名称</text>
+                </view>
+                <view class="top-bar-ft">
+                    <text class="ft-txt">课程目录</text>
+                    <view class="video-course-catalog" style="display: none;">
+                        <view class="items open">
+                            <view class="items-tit">第一章</view>
+                            <view class="items-cont">
+                                <text class="cont-txt current">课程课程课程课程课程</text>
+                                <text class="cont-txt">课程课程课程课程课程</text>
+                                <text class="cont-txt">课程课程课程课程课程</text>
+                            </view>
+                        </view>
+                        <view class="items">
+                            <view class="items-tit">第一章</view>
+                        </view>
+                        <view class="items">
+                            <view class="items-tit">第一章</view>
+                        </view>
+                        <view class="items">
+                            <view class="items-tit">第一章</view>
+                        </view>
+                        <view class="items">
+                            <view class="items-tit">第一章</view>
+                        </view>
+                        <view class="items">
+                            <view class="items-tit">第一章</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <!--进度条-->
+            <view class="operation-box">
+                <view class="operation-hd">
+                    <view class="ico">
+                        <image class="img" src="/images/video-stop-s.png" alt=" " />
+                        <!--<image class="img" src="/images/video-play-s.png" alt=" " />-->
+                    </view>
+                </view>
+                <view class="operation-bd">
+                    <view class="video-process">
+                        <view class="current" style="width: 20%;">
+                            <view class="dot"></view>
+                        </view>
+                    </view>
+                    <text class="time">00:20/56:26</text>
+                </view>
+                <view class="operation-ft">
+                    <view class="ico">
+                        <image class="img" src="/images/video-bigger.png" alt=" " />
+                    </view>
+                </view>
+            </view>
+            <!--点击暂停后-->
+            <view class="video-stop-panel">
+                <image class="img" src="/images/video-play-l.png" alt=" " />
+            </view>
+        </view>
+        <view class="hb-tab-tit hb-tab-tit-1">
+            <view class="tab-tit-items">
+                <text class="items-name">课程目录</text>
+                <image class="current-img" src="/images/tab-current-bg.jpg" />
+            </view>
+            <view class="tab-tit-items current">
+                <text class="items-name">课程信息</text>
+                <image class="current-img" src="/images/tab-current-bg.jpg" />
+            </view>
+        </view>
+    </view>
+    <view class="course-catalog">
+        <scroll-view>
+            <view class="block-box situation-info-box">
+                <view class="info-tit">基础信息</view>
+                <view class="info-desc">课程名称：我是课程名称课程名称</view>
+                <view class="info-desc">讲师：隔壁老王</view>
+                <view class="info-desc">学时：3</view>
+                <view class="info-desc">观看时长： 02:56:12</view>
+            </view>
+            <view class="block-box situation-info-box">
+                <view class="info-tit">课程介绍</view>
+                <view class="info-desc info-desc-1">中共十九大的召开，不仅是中国的大事，也是世界的大事。世界各国媒体也都在此时此刻将目光投向了
+                    中国，多国媒体派记者来华采访。据十九大新闻中心统计，已有3068名中外记者前来采访报道十九大，其中港澳台记者和外国记
+                    者达到1818人，比十八大时增长6.7%；外国记者来自134个国家，比十八大时增加19.6%，遍布世界五大洲。</view>
+            </view>
+        </scroll-view>
+    </view>
+</view>

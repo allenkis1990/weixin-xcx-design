@@ -1,0 +1,290 @@
+<!--订单详情-->
+<view class="contain">
+    <view class="hb-wrap-box hb-wrap-box-4">
+        <!--交易成功-->
+        <view class="weui-cells hb-panel bor-b20">
+            <view class="weui-cell hb-order-status weui-cell_access">
+                <view class="weui-cell__hd">
+                    <image class="hb-ico" src="/images/status-trading-success.png" />
+                </view>
+                <view class="weui-cell__bd">
+                    <view class="fs30">订单状态：<text class="ci">交易成功</text></view>
+                    <view class="time">2017-12-12  09:23</view>
+                </view>
+                <view class="weui-cell__ft">更多状态</view>
+            </view>
+        </view>
+        <!--开通中-->
+        <view class="weui-cells hb-panel bor-b20">
+            <view class="weui-cell hb-order-status weui-cell_access">
+                <view class="weui-cell__hd">
+                    <image class="hb-ico" src="/images/status-trading-ing.png" />
+                </view>
+                <view class="weui-cell__bd">
+                    <view class="fs30">订单状态：<text class="ci">开通中</text></view>
+                    <view class="time">2017-12-12  09:23</view>
+                </view>
+                <view class="weui-cell__ft">更多状态</view>
+            </view>
+        </view>
+        <!--交易关闭-->
+        <view class="weui-cells hb-panel bor-b20">
+            <view class="weui-cell hb-order-status weui-cell_access">
+                <view class="weui-cell__hd">
+                    <image class="hb-ico" src="/images/status-trading-close.png" />
+                </view>
+                <view class="weui-cell__bd">
+                    <view class="fs30">订单状态：<text class="ci">交易关闭</text></view>
+                    <view class="time">2017-12-12  09:23</view>
+                </view>
+                <view class="weui-cell__ft">更多状态</view>
+            </view>
+        </view>
+        <!--待支付-->
+        <view class="weui-cells hb-panel bor-b20">
+            <view class="weui-cell hb-order-status weui-cell_access">
+                <view class="weui-cell__hd">
+                    <image class="hb-ico" src="/images/status-pay-wait.png" />
+                </view>
+                <view class="weui-cell__bd">
+                    <view class="fs30">订单状态：<text class="ci">待支付</text></view>
+                    <view class="time">2017-12-12  09:23</view>
+                </view>
+                <view class="btn-bar">
+                    <view class="hb-btn-s">取消订单</view>
+                    <view class="hb-btn-s current">立即支付</view>
+                </view>
+            </view>
+        </view>
+        <!--支付中-->
+        <view class="weui-cells hb-panel bor-b20">
+            <view class="weui-cell hb-order-status weui-cell_access">
+                <view class="weui-cell__hd">
+                    <image class="hb-ico" src="/images/status-pay-ing.png" />
+                </view>
+                <view class="weui-cell__bd">
+                    <view class="fs30">订单状态：<text class="ci">支付中</text></view>
+                    <view class="time">2017-12-12  09:23</view>
+                </view>
+                <view class="btn-bar">
+                    <view class="hb-btn-s">取消订单</view>
+                    <view class="hb-btn-s current">立即支付</view>
+                </view>
+            </view>
+        </view>
+        <!--已付款-->
+        <view class="weui-cells hb-panel bor-b20">
+            <view class="weui-cell hb-order-status weui-cell_access">
+                <view class="weui-cell__hd">
+                    <image class="hb-ico" src="/images/status-pay-success.png" />
+                </view>
+                <view class="weui-cell__bd">
+                    <view class="fs30">订单状态：<text class="ci">已付款</text></view>
+                    <view class="time">2017-12-12  09:23</view>
+                </view>
+                <view class="weui-cell__ft">更多状态</view>
+            </view>
+        </view>
+
+
+        <view class="weui-panel hb-panel bor-b20">
+            <view class="weui-panel__hd">发票信息</view>
+            <view class="weui-cells">
+                <view class="weui-cell">
+                    <view class="weui-cell__bd">
+                        <view class="bd-items"><text class="tit-1">开票方式：</text><text class="txt">普通发票</text></view>
+                        <view class="bd-items"><text class="tit-1">抬头类型：</text><text class="txt">单位</text></view>
+                        <view class="bd-items"><text class="tit-1">发票抬头：</text><text class="txt">福建省华博教育科技股份有限公司</text></view>
+                        <view class="bd-items"><text class="tit-1">纳税人识别号：</text><text class="txt">CL3453543543645654</text></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-panel hb-panel bor-b20">
+            <view class="weui-panel__hd">发票信息</view>
+            <view class="weui-cells">
+                <view class="weui-cell">
+                    <view class="weui-cell__bd">
+                        <view class="bd-items mt5"><text class="tit-1">开票方式：</text><text class="txt">普通电子发票</text><view class="hb-btn-s current">查看发票</view></view>
+                        <view class="bd-items"><text class="tit-1">抬头类型：</text><text class="txt">单位</text></view>
+                        <view class="bd-items"><text class="tit-1">发票抬头：</text><text class="txt">福建省华博教育科技股份有限公司</text></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-panel hb-panel bor-b20">
+            <view class="weui-panel__hd">发票信息</view>
+            <view class="weui-cells">
+                <view class="weui-cell">
+                    <view class="weui-cell__bd">
+                        <view class="bd-items"><text class="tit-1">开票方式：</text><text class="txt">增值税专用发票</text></view>
+                        <view class="bd-items"><text class="tit-1">单位全称：</text><text class="txt">福建省华博教育科技股份有限公司</text></view>
+                        <view class="bd-items"><text class="tit-1">纳税人识别号：</text><text class="txt">CL3453543543645654</text></view>
+                        <view class="bd-items"><text class="tit-1">注册地址：</text><text class="txt">福建省福州市鼓楼区工业路611号海峡技术转移中心13层</text></view>
+                        <view class="bd-items"><text class="tit-1">注册电话：</text><text class="txt">0951-8370951</text></view>
+                        <view class="bd-items"><text class="tit-1">开户银行：</text><text class="txt">中国建设银行</text></view>
+                        <view class="bd-items"><text class="tit-1">银行账号：</text><text class="txt">4545545451212455</text></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-panel hb-panel bor-b20">
+            <view class="weui-panel__hd">发票物流信息</view>
+            <view class="weui-cells">
+                <view class="weui-cell">
+                    <view class="weui-cell__bd">
+                        <view class="bd-items"><text class="tit-1">快递公司：</text><text class="txt">EMS</text></view>
+                        <view class="bd-items">
+                            <text class="tit-1">快递单号：</text>
+                            <view class="txt">45875632547854</view>
+                            <view class="btn-bar">
+                                <view class="hb-btn-s">复制</view>
+                                <view class="hb-btn-s current">物流进度</view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-panel hb-panel bor-b20">
+            <view class="weui-panel__hd">发票配送信息</view>
+            <view class="weui-cells">
+                <view class="weui-cell">
+                    <view class="weui-cell__bd">
+                        <view class="bd-items"><text class="tit-1">配送方式：</text><text class="txt">邮寄</text></view>
+                        <view class="bd-items"><text class="tit-1 tit-3">收货人：</text><text class="txt">隔壁老王，15659135119</text></view>
+                        <view class="bd-items"><text class="tit-1">收货地址：</text><text class="txt">福建省 福州市 鼓楼区高新技术创业园5楼东区1-2，350011</text></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-panel hb-panel bor-b20">
+            <view class="weui-panel__hd">证书物流信息</view>
+            <view class="weui-cells">
+                <view class="weui-cell">
+                    <view class="weui-cell__bd">
+                        <view class="bd-items"><text class="tit-1">证书名称：</text><text class="txt">显示证书对应的班级名称</text></view>
+                        <view class="bd-items"><text class="tit-1">证书编码：</text><text class="txt">2387487238723</text></view>
+                        <view class="bd-items"><text class="tit-1">快递公司：</text><text class="txt">EMS</text></view>
+                        <view class="bd-items">
+                            <text class="tit-1">快递单号：</text>
+                            <view class="txt">45875632547854</view>
+                            <view class="btn-bar">
+                                <view class="hb-btn-s">复制</view>
+                                <view class="hb-btn-s current">物流进度</view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="weui-cell">
+                    <view class="weui-cell__bd">
+                        <view class="bd-items"><text class="tit-1">证书名称：</text><text class="txt">显示证书对应的班级名称</text></view>
+                        <view class="bd-items"><text class="tit-1">证书编码：</text><text class="txt">2387487238723</text></view>
+                        <view class="bd-items"><text class="tit-1">快递公司：</text><text class="txt">EMS</text></view>
+                        <view class="bd-items">
+                            <text class="tit-1">快递单号：</text>
+                            <view class="txt">45875632547854</view>
+                            <view class="btn-bar">
+                                <view class="hb-btn-s">复制</view>
+                                <view class="hb-btn-s current">物流进度</view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-panel hb-panel bor-b20">
+            <view class="weui-panel__hd">证书配送信息</view>
+            <view class="weui-cells">
+                <view class="weui-cell">
+                    <view class="weui-cell__bd">
+                        <view class="bd-items"><text class="tit-1">配送方式：</text><text class="txt">邮寄</text></view>
+                        <view class="bd-items"><text class="tit-1 tit-3">收货人：</text><text class="txt">隔壁老王，15659135119</text></view>
+                        <view class="bd-items"><text class="tit-1">收货地址：</text><text class="txt">福建省 福州市 鼓楼区高新技术创业园5楼东区1-2，350011</text></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-panel hb-panel bor-b20">
+            <view class="weui-panel__hd">发票及证书配送信息</view>
+            <view class="weui-cells">
+                <view class="weui-cell">
+                    <view class="weui-cell__bd">
+                        <view class="bd-items"><text class="tit-1">配送方式：</text><text class="txt">邮寄</text></view>
+                        <view class="bd-items"><text class="tit-1 tit-3">收货人：</text><text class="txt">隔壁老王，15659135119</text></view>
+                        <view class="bd-items"><text class="tit-1">收货地址：</text><text class="txt">福建省 福州市 鼓楼区高新技术创业园5楼东区1-2，350011</text></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-panel hb-panel bor-b20">
+            <view class="weui-panel__hd">订单信息</view>
+            <view class="weui-cells">
+                <view class="weui-cell">
+                    <view class="weui-cell__bd">
+                        <view class="bd-items"><text class="tit-1">订单类型：</text><text class="txt">购买订单</text></view>
+                        <view class="bd-items"><text class="tit-1 tit-3">订单号：</text><text class="txt">15659135119</text></view>
+                        <view class="bd-items"><text class="tit-1">下单时间：</text><text class="txt">2017-12-12  19:23:23</text></view>
+                        <view class="bd-items"><text class="tit-1">支付方式：</text><text class="txt">在线支付/微信支付</text></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-panel hb-panel bor-b20">
+            <view class="weui-panel__hd">订单信息</view>
+            <view class="weui-cells">
+                <view class="weui-cell">
+                    <view class="weui-cell__bd">
+                        <view class="bd-items"><text class="tit-1">订单类型：</text><text class="txt">换班订单</text></view>
+                        <view class="bd-items"><text class="tit-1 tit-3">订单号：</text><text class="txt">15659135119</text></view>
+                        <view class="bd-items"><text class="tit-1">原订单号：</text><text class="txt">15659135119</text></view>
+                        <view class="bd-items"><text class="tit-1">下单时间：</text><text class="txt">2017-12-12  19:23:23</text></view>
+                        <view class="bd-items"><text class="tit-1">支付方式：</text><text class="txt">在线支付/微信支付</text></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-panel hb-panel">
+            <view class="weui-panel__hd">培训内容</view>
+            <view class="hb-media-box hb-media-box-1">
+                <view class="hb-media-box-hd">
+                    <image class="hb-media-box-thumb" src="/images/course-img.jpg" />
+                </view>
+                <view class="hb-media-box-bd">
+                    <view class="hb-media-box-title">这里是一个培训班名称这里是一个培训班名称</view>
+                    <view class="hb-media-box-desc">年度：2017年</view>
+                    <view class="hb-media-box-desc">科目：专业课</view>
+                    <view class="hb-media-box-desc">学时：30</view>
+                </view>
+                <view class="price">￥<text class="num">39.99</text></view>
+            </view>
+            <view class="hb-media-box hb-media-box-1">
+                <view class="hb-media-box-hd">
+                    <image class="hb-media-box-thumb" src="/images/course-img.jpg" />
+                </view>
+                <view class="hb-media-box-bd">
+                    <view class="hb-media-box-title">这里是一个培训班名称这里是一个培训班名称</view>
+                    <view class="hb-media-box-desc">年度：2017年</view>
+                    <view class="hb-media-box-desc">科目：专业课</view>
+                    <view class="hb-media-box-desc">学时：30</view>
+                </view>
+                <view class="price">￥<text class="num">39.99</text></view>
+            </view>
+            <view class="order-info-box">
+                <view></view>
+                <view>实付<text class="ml10 ci">¥ 60</text> </view>
+            </view>
+        </view>
+
+    </view>
+</view>

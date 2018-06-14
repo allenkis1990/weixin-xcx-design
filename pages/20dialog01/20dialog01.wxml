@@ -1,0 +1,18 @@
+<!--弹窗样式1-->
+<view class="contain">
+    <view class="hd-dialog">
+        <view class="weui-mask"></view>
+        <view class="weui-dialog">
+            <view class="weui-dialog__hd"><view class="weui-dialog__title">提示</view></view>
+            <!-- <view class="weui-dialog__bd">退出考试并提交考试？</view> -->
+            <view class="weui-dialog__bd">
+              <text>设置新密码成功!</text>
+              <text style='display:block;'>{{time}}S后则进入登录页</text>
+            </view>
+            <view class="weui-dialog__ft">
+                <view class="weui-dialog__btn weui-dialog__btn_default">取消</view>
+                <view class="weui-dialog__btn weui-dialog__btn_primary">提交考试</view>
+            </view>
+        </view>
+    </view>
+</view>

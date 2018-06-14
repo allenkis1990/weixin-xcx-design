@@ -1,0 +1,8 @@
+<!--购物车-空数据-->
+<view class="contain">
+    <view class="no-data-box">
+        <image class="no-data-img" src="/images/no-data-img.png" alt=" " />
+        <view class="no-data-txt">购物车空空如也，赶紧去报名培训吧！</view>
+    </view>
+    <view class="btn-primary btn-m mt30">报名培训</view>
+</view>

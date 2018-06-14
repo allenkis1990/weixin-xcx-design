@@ -1,0 +1,19 @@
+<!--问卷进入页-->
+<view class="contain exam-enter-panel">
+    <view class="p50">
+        <image class="exam-img" src="/images/exam-enter-icon.png" alt=" " />
+        <view class="exam-name">问卷名称问卷名称问卷名称问卷名称</view>
+        <view class="exam-info exam-info-1">
+            <view class="hd">
+                <view class="ico">
+                    <image class="img" src="/images/exam-num.png" alt=" " />
+                </view>
+                <text>问卷说明</text>
+            </view>
+            <view class="bd">
+                以培训平台为维度，根据继续教育的年度、平台、等级课时。以培训平台为维度，根据继续教育年度、平台、等级课时以培训平台为维度，根据继续教育年度、平台、等级课时以培训平台为维度，根据继续教育年度、平台、等级课时。
+            </view>
+        </view>
+        <view class="btn-full">进入考试</view>
+    </view>
+</view>

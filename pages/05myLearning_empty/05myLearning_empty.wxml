@@ -1,0 +1,12 @@
+<!--我的学习-空数据-->
+<view class="contain">
+    <view class="no-data-box">
+        <image class="no-data-img" src="/images/no-data-img.png" alt=" " />
+        <view class="no-data-txt">尚未报名培训班</view>
+        <view class="no-data-txt">请前往【发现培训】报名！</view>
+        <!-- <view class="no-data-txt">暂无自主选课的课程</view>
+        <view class="no-data-txt">请前往【发现培训】选课！</view> -->
+    </view>
+</view>
+
+    

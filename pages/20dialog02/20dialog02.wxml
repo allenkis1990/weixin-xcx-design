@@ -1,0 +1,14 @@
+<!--弹窗样式2-->
+<view class="contain">
+    <view class="hd-dialog">
+        <view class="weui-mask"></view>
+        <view class="weui-dialog">
+            <view class="weui-dialog__hd">
+                <view class="ico">
+                    <image class="img" src="/images/icon-warning.png" alt=" " />
+                </view>
+            </view>
+            <view class="weui-dialog__bd">培训尚未开始，未开放学习！</view>
+        </view>
+    </view>
+</view>

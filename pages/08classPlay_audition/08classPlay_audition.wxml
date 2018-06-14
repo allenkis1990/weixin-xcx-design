@@ -1,0 +1,192 @@
+<!--培训班播放页-试听-->
+<view class="contain">
+    <view class="view-pos">
+        <view class="hb-video-box">
+            <view class="return-play-panel">
+                <image class="img" src="/images/video-play-l.png" alt=" " />
+                <view class="tip-txt">试听时间已结束，点击重新试听</view>
+            </view>
+        </view>
+        <view class="hb-tab-tit hb-tab-tit-1">
+            <view class="tab-tit-items current">
+                <text class="items-name">课程目录</text>
+                <image class="current-img" src="/images/tab-current-bg.jpg" />
+            </view>
+            <view class="tab-tit-items">
+                <text class="items-name">课程信息</text>
+                <image class="current-img" src="/images/tab-current-bg.jpg" />
+            </view>
+        </view>
+    </view>
+    <view class="course-catalog">
+        <scroll-view>
+            <view class="exam-panel-hd">
+                <view class="hd-info">这里是课程名称课程名称课程名称</view>
+            </view>
+            <view class="course-catalog-bd">
+                <view class="line"></view>
+                <view class="items">
+                    <view class="items-tit">
+                        <view class="items-tit-hd">
+                            <text class="label">章节</text>
+                            <text class="num">1</text>
+                        </view>
+                        <view class="items-tit-bd">突发事件及其特征</view>
+                    </view>
+                    <!--已学完-->
+                    <view class="items-cont course-ed current">
+                        <view class="items-cont-hd">
+                            <text class="process-num">100%</text>
+                            <view class="process-circle">
+                                <view class="current"></view>
+                            </view>
+                        </view>
+                        <view class="items-cont-bd">一、突发事件的概念</view>
+                        <view class="items-cont-ft">
+                            <text>P1-P2</text>
+                            <!--<image class="img" src="/images/catalog-text.png" alt="" />-->
+                            <image class="img" src="/images/catalog-text-current.png" alt="" />
+                        </view>
+                    </view>
+                    <!--正在学习-->
+                    <view class="items-cont course-ing">
+                        <view class="items-cont-hd">
+                            <text class="process-num">22%</text>
+                            <view class="process-circle">
+                                <view class="current"></view>
+                            </view>
+                        </view>
+                        <view class="items-cont-bd">一、突发事件的概念</view>
+                        <view class="items-cont-ft">
+                            <text>12:36</text>
+                            <image class="img" src="/images/catalog-video.png" alt="" />
+                            <!--<image class="img" src="/images/catalog-video-current.png" alt="" />-->
+                        </view>
+                    </view>
+                    <!--未开始学习-->
+                    <view class="items-cont">
+                        <view class="items-cont-hd">
+                            <text class="process-num">0%</text>
+                            <view class="process-circle">
+                                <view class="current"></view>
+                            </view>
+                        </view>
+                        <view class="items-cont-bd">一、突发事件的概念</view>
+                        <view class="items-cont-ft">
+                            <text>12:36</text>
+                            <image class="img" src="/images/catalog-video.png" alt="" />
+                            <!--<image class="img" src="/images/catalog-video-current.png" alt="" />-->
+                        </view>
+                    </view>
+                </view>
+                <view class="items">
+                    <view class="items-tit">
+                        <view class="items-tit-hd">
+                            <text class="label">章节</text>
+                            <text class="num">1</text>
+                        </view>
+                        <view class="items-tit-bd">突发事件及其特征</view>
+                    </view>
+                    <view class="items-cont">
+                        <view class="items-cont-hd">
+                            <text class="process-num">0%</text>
+                            <view class="process-circle">
+                                <view class="current"></view>
+                            </view>
+                        </view>
+                        <view class="items-cont-bd">一、突发事件的概念</view>
+                        <view class="items-cont-ft">
+                            <text>P1-P2</text>
+                            <image class="img" src="/images/catalog-text.png" alt="" />
+                            <!--<image class="img" src="/images/catalog-text-current.png" alt="" />-->
+                        </view>
+                    </view>
+                    <view class="items-cont">
+                        <view class="items-cont-hd">
+                            <text class="process-num">0%</text>
+                            <view class="process-circle">
+                                <view class="current"></view>
+                            </view>
+                        </view>
+                        <view class="items-cont-bd">一、突发事件的概念</view>
+                        <view class="items-cont-ft">
+                            <text>P1-P2</text>
+                            <image class="img" src="/images/catalog-text.png" alt="" />
+                            <!--<image class="img" src="/images/catalog-text-current.png" alt="" />-->
+                        </view>
+                    </view>
+                    <view class="items-cont">
+                        <view class="items-cont-hd">
+                            <text class="process-num">0%</text>
+                            <view class="process-circle">
+                                <view class="current"></view>
+                            </view>
+                        </view>
+                        <view class="items-cont-bd">一、突发事件的概念</view>
+                        <view class="items-cont-ft">
+                            <text>P1-P2</text>
+                            <image class="img" src="/images/catalog-text.png" alt="" />
+                            <!--<image class="img" src="/images/catalog-text-current.png" alt="" />-->
+                        </view>
+                    </view>
+                    <view class="items-cont">
+                        <view class="items-cont-hd">
+                            <text class="process-num">0%</text>
+                            <view class="process-circle">
+                                <view class="current"></view>
+                            </view>
+                        </view>
+                        <view class="items-cont-bd">一、突发事件的概念</view>
+                        <view class="items-cont-ft">
+                            <text>P1-P2</text>
+                            <image class="img" src="/images/catalog-text.png" alt="" />
+                            <!--<image class="img" src="/images/catalog-text-current.png" alt="" />-->
+                        </view>
+                    </view>
+                    <view class="items-cont">
+                        <view class="items-cont-hd">
+                            <text class="process-num">0%</text>
+                            <view class="process-circle">
+                                <view class="current"></view>
+                            </view>
+                        </view>
+                        <view class="items-cont-bd">一、突发事件的概念</view>
+                        <view class="items-cont-ft">
+                            <text>P1-P2</text>
+                            <image class="img" src="/images/catalog-text.png" alt="" />
+                            <!--<image class="img" src="/images/catalog-text-current.png" alt="" />-->
+                        </view>
+                    </view>
+                    <view class="items-cont">
+                        <view class="items-cont-hd">
+                            <text class="process-num">0%</text>
+                            <view class="process-circle">
+                                <view class="current"></view>
+                            </view>
+                        </view>
+                        <view class="items-cont-bd">一、突发事件的概念</view>
+                        <view class="items-cont-ft">
+                            <text>P1-P2</text>
+                            <image class="img" src="/images/catalog-text.png" alt="" />
+                            <!--<image class="img" src="/images/catalog-text-current.png" alt="" />-->
+                        </view>
+                    </view>
+                    <view class="items-cont">
+                        <view class="items-cont-hd">
+                            <text class="process-num">0%</text>
+                            <view class="process-circle">
+                                <view class="current"></view>
+                            </view>
+                        </view>
+                        <view class="items-cont-bd">一、突发事件的概念</view>
+                        <view class="items-cont-ft">
+                            <text>P1-P2</text>
+                            <image class="img" src="/images/catalog-text.png" alt="" />
+                            <!--<image class="img" src="/images/catalog-text-current.png" alt="" />-->
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</view>

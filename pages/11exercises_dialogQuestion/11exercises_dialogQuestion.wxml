@@ -1,0 +1,28 @@
+<!--弹窗题-->
+<view class="contain">
+    <view class="hd-dialog">
+        <view class="weui-mask"></view>
+        <view class="weui-dialog weui-dialog-1">
+            <view class="weui-dialog__bd tl">
+                <view class="exam-panel exam-panel-3 pt30">
+                    <view class="exam-panel-bd">
+                        <view class="question-tit"><text class="label">单选题</text><text>为了预防和控制甲型H1N1流感，国家抓紧研制疫苗并免费提供给人们注射。该过程中注射的主要物质及采取的措施分别称为(   )</text></view>
+                        <!--多选题添加 multiple-choice-->
+                        <view class="question-select">
+                            <!--选中的选项添加 selected-->
+                            <view class="select-items selected"><view class="items-num">A</view><view class="items-txt">抗原，控制传染源</view></view>
+                            <view class="select-items"><view class="items-num">B</view><view class="items-txt">抗原，保护易感人群</view></view>
+                            <view class="select-items"><view class="items-num">C</view><view class="items-txt">抗体，保护易感人群</view></view>
+                            <view class="select-items"><view class="items-num">D</view><view class="items-txt">抗体，切断传播途径</view></view>
+                        </view>
+                    </view>
+                </view>
+                <view class="tips-gray">已答次数/可答次数：3/5</view>
+            </view>
+            <view class="weui-dialog__ft">
+                <view class="weui-dialog__btn weui-dialog__btn_primary">确定提交</view>
+            </view>
+        </view>
+    </view>
+</view>
+

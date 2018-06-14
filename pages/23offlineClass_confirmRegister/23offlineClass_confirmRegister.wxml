@@ -1,0 +1,13 @@
+<!--确认报到-->
+<view class="contain">
+    <view class="hb-form-cells">
+        <view class="tips-page mt80">
+            <image class="tips-img" src="/images/icon-warning.png" alt=" " />
+            <view class="fs32 mt40">确定报到《面授班名称面授班名称》？</view>
+            <view class="btn-primary mt80">确认报到打卡</view>
+            <view class="form-other mt60">
+                <view class="weui-check__label cb tc">暂不报到</view>
+            </view>
+        </view>
+    </view>
+</view>

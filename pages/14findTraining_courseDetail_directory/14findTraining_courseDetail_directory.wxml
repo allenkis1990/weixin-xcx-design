@@ -1,0 +1,158 @@
+<!--发现培训-课程详情-目录-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <view class="view-pos">
+            <view class="course-detail-hd">
+                <view class="course-detail-img">
+                    <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                </view>
+                <view class="year-label-box">
+                    <image class="img" src="/images/year-label.png" alt=" " />
+                    <text class="year-label">2017</text>
+                </view>
+                <view class="course-info">
+                    <image class="mask" src="/images/course-img-mask.png" alt=" " />
+                    <view class="course-name">我是一个培训班的名称培训班的名称培训班的名称</view>
+                </view>
+            </view>
+            <!--tab-->
+            <view class="hb-tab-tit hb-tab-tit-2">
+                <view class="tab-tit-items">
+                    <text class="items-name">培训信息</text>
+                    <image class="current-img" src="/images/tab-current-bg.jpg" />
+                </view>
+                <view class="tab-tit-items current">
+                    <text class="items-name">课程目录</text>
+                    <image class="current-img" src="/images/tab-current-bg.jpg" />
+                </view>
+            </view>
+            <!--/tab-->
+        </view>
+        <view class="course-detail-tab-bd course-detail-tab-bd-2">
+            <scroll-view>
+                <view class="class-directory-box">
+                    <view class="line"></view>
+                    <view class="class-directory">
+                        <view class="directory-li">
+                            <view class="items-tit">
+                                <text class="dot"></text><text class="ml20">这是章节的名称</text>
+                            </view>
+                            <view class="sub-items">
+                                <view class="sub-items-bd">
+                                    <view class="bd">
+                                        <text class="dot"></text><text class="ml20">这是课程的名称这是课程的名称这是课程的名称这是课程的名称</text>
+                                    </view>
+                                    <view class="time">00:23:23</view>
+                                    <view class="ft">
+                                        <image class="img" src="/images/icon-play.png" />
+                                    </view>
+                                </view>
+                                <view class="sub-items-bd">
+                                    <view class="bd">
+                                        <text class="dot"></text><text class="ml20">这是课程的名称</text>
+                                    </view>
+                                    <view class="time">00:23:23</view>
+                                    <view class="ft"><image class="img" src="/images/icon-play.png" /></view>
+                                </view>
+                                <view class="sub-items-bd">
+                                    <view class="bd">
+                                        <text class="dot"></text><text class="ml20">这是课程的名称</text>
+                                    </view>
+                                    <view class="time">00:23:23</view>
+                                    <view class="ft"><image class="img" src="/images/icon-play.png" /></view>
+                                </view>
+                                <view class="sub-items-bd">
+                                    <view class="bd">
+                                        <text class="dot"></text><text class="ml20">这是课程的名称这是课程的名称</text>
+                                    </view>
+                                    <view class="time">00:23:23</view>
+                                    <view class="ft"><image class="img" src="/images/icon-play.png" /></view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="directory-li">
+                            <view class="items-tit">
+                                <text class="dot"></text><text class="ml20">这是章节的名称</text>
+                            </view>
+                            <view class="sub-items">
+                                <view class="sub-items-bd">
+                                    <view class="bd">
+                                        <text class="dot"></text><text class="ml20">这是课程的名称这是课程的名称这是课程的名称这是课程的名称</text>
+                                    </view>
+                                    <view class="time">00:23:23</view>
+                                    <view class="ft">
+                                        <image class="img" src="/images/icon-play.png" />
+                                    </view>
+                                </view>
+                                <view class="sub-items-bd">
+                                    <view class="bd">
+                                        <text class="dot"></text><text class="ml20">这是课程的名称</text>
+                                    </view>
+                                    <view class="time">00:23:23</view>
+                                    <view class="ft"><image class="img" src="/images/icon-play.png" /></view>
+                                </view>
+                                <view class="sub-items-bd">
+                                    <view class="bd">
+                                        <text class="dot"></text><text class="ml20">这是课程的名称</text>
+                                    </view>
+                                    <view class="time">00:23:23</view>
+                                    <view class="ft"><image class="img" src="/images/icon-play.png" /></view>
+                                </view>
+                                <view class="sub-items-bd">
+                                    <view class="bd">
+                                        <text class="dot"></text><text class="ml20">这是课程的名称这是课程的名称</text>
+                                    </view>
+                                    <view class="time">00:23:23</view>
+                                    <view class="ft"><image class="img" src="/images/icon-play.png" /></view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="directory-li">
+                            <view class="items-tit">
+                                <text class="dot"></text><text class="ml20">这是章节的名称</text>
+                            </view>
+                            <view class="sub-items">
+                                <view class="sub-items-bd">
+                                    <view class="bd">
+                                        <text class="dot"></text><text class="ml20">这是课程的名称这是课程的名称这是课程的名称这是课程的名称</text>
+                                    </view>
+                                    <view class="time">00:23:23</view>
+                                    <view class="ft">
+                                        <image class="img" src="/images/icon-play.png" />
+                                    </view>
+                                </view>
+                                <view class="sub-items-bd">
+                                    <view class="bd">
+                                        <text class="dot"></text><text class="ml20">这是课程的名称</text>
+                                    </view>
+                                    <view class="time">00:23:23</view>
+                                    <view class="ft"><image class="img" src="/images/icon-play.png" /></view>
+                                </view>
+                                <view class="sub-items-bd">
+                                    <view class="bd">
+                                        <text class="dot"></text><text class="ml20">这是课程的名称</text>
+                                    </view>
+                                    <view class="time">00:23:23</view>
+                                    <view class="ft"><image class="img" src="/images/icon-play.png" /></view>
+                                </view>
+                                <view class="sub-items-bd">
+                                    <view class="bd">
+                                        <text class="dot"></text><text class="ml20">这是课程的名称这是课程的名称</text>
+                                    </view>
+                                    <view class="time">00:23:23</view>
+                                    <view class="ft"><image class="img" src="/images/icon-play.png" /></view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+    <view class="hb-tabbar">
+        <view class="left-box"><text class="ci fs40">￥ 30.00</text></view>
+        <view class="hb-btn hb-btn-2 disabled">加入购物车</view>
+        <view class="hb-btn disabled">立即报名</view>
+    </view>
+</view>
+

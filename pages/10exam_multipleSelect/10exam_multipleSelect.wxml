@@ -1,0 +1,48 @@
+<!--考试-多选题-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <view class="exam-panel-hd">
+            <view class="hd-info">一、多选题（共10题，每题2分，共20分）</view>
+            <view class="question-num"><text class="cb">5</text>/20</view>
+        </view>
+        <view class="exam-panel exam-panel-1">
+            <view class="exam-panel-bd">
+                <view class="question-tit"><text>1/5、</text><text>为了预防和控制甲型H1N1流感，国家抓紧研制疫苗并免费提供给人们注射。该过程中注射的主要物质及采取的措施分别称为(   )（2分）</text></view>
+                <!--多选题添加 multiple-choice-->
+                <view class="question-select multiple-choice">
+                    <!--选中的选项添加 selected-->
+                    <view class="select-items selected"><view class="items-num">A</view><view class="items-txt">抗原，控制传染源</view></view>
+                    <view class="select-items"><view class="items-num">B</view><view class="items-txt">抗原，保护易感人群</view></view>
+                    <view class="select-items selected"><view class="items-num">C</view><view class="items-txt">抗体，保护易感人群</view></view>
+                    <view class="select-items"><view class="items-num">D</view><view class="items-txt">抗体，切断传播途径</view></view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="hb-tabbar hb-tabbar-1">
+        <view class="hb-btn-1 disabled">
+            <view class="ico">
+                <!-- <image class="img" src="/images/exam-prev.png" alt=" " /> -->
+                <image class="img" src="/images/exam-prev-disabled.png" alt=" " />
+            </view>
+            <text>上一题</text>
+        </view>
+        <view class="hb-btn-1">
+            <view class="ico">
+                <image class="img" src="/images/exam-card.png" alt=" " />
+            </view>
+            <text>答题卡</text>
+        </view>
+        <view class="hb-btn-1">
+            <text>下一题</text>
+            <view class="ico ico-next">
+                <view class="ico">
+                    <image class="img" src="/images/exam-next.png" alt=" " />
+                    <!--<image class="img" src="/images/exam-next-disabled.png" alt=" " />-->
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="guide-tips"><image class="bg" src="/images/guide-tips-bg.png" alt=" " /><text class='tips-txt'>提交考试，请点击此处进入！</text></view>
+</view>

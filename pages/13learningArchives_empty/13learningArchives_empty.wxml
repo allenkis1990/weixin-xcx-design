@@ -1,0 +1,8 @@
+<!--学习档案-空数据-->
+<view class="contain">
+    <view class="no-data-box">
+        <image class="no-data-img" src="/images/no-data-img.png" alt=" " />
+        <view class="no-data-txt">学习档案，空空如也，请努力学习！</view>
+    </view>
+    <view class="btn-primary btn-m mt30">进入我的学习</view>
+</view>

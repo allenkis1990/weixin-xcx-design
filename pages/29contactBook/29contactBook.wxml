@@ -1,0 +1,126 @@
+<!--通讯录-->
+<view class="contain">
+    <view class="contact-panel">
+        <view class="head-teacher">
+            <image class="bg" src="/images/teacher-contact-bg.png" alt=" " />
+            <image class="user-img" src="/images/teacher-img.jpg" alt=" " />
+            <view class="info-box">
+                <view class="name">班主任</view>
+                <view class="info">姓名：隔壁老王</view>
+                <view class="info">联系方式：15858547589</view>
+            </view>
+            <image class="phone" src="/images/icon-phone-white.png" alt=" " />
+        </view>
+        <view class="contact-items bor-b20">
+            <view class="flex pb20">
+                <image class="user-img" src="/images/user-img.jpg" alt=" " />
+                <view class="info-box">
+                    <view class="name">隔壁老王</view>
+                    <view class="info mt10">产品经理</view>
+                </view>
+                <view class="flex">
+                    <text class="info mr20">公开</text>
+                    <image class="switch" src="/images/switch-open.png" alt=" " />
+                </view>
+            </view>
+            <view class="info-box-1 flex">
+                <image class="icon" src="/images/icon-phone.png" alt=" " />
+                <text class="info">15858547589</text>
+            </view>
+            <view class="info-box-1 flex">
+                <image class="icon" src="/images/icon-company.png" alt=" " />
+                <text class="info">福建华博教育科技股份有限公司</text>
+            </view>
+        </view>
+        <view class="contact-items">
+            <view class="flex pb30">
+                <image class="user-img" src="/images/user-img.jpg" alt=" " />
+                <view class="info-box">
+                    <view class="name">隔壁老王</view>
+                    <view class="info mt10">产品经理</view>
+                </view>
+                <image class="phone" src="/images/icon-phone-green.png" alt=" " />
+            </view>
+            <view class="info-box-1 flex">
+                <image class="icon" src="/images/icon-phone.png" alt=" " />
+                <text class="info">15858547589</text>
+            </view>
+            <view class="info-box-1 flex">
+                <image class="icon" src="/images/icon-company.png" alt=" " />
+                <text class="info">福建华博教育科技股份有限公司</text>
+            </view>
+        </view>
+        <view class="contact-items">
+            <view class="flex pb30">
+                <image class="user-img" src="/images/user-img.jpg" alt=" " />
+                <view class="info-box">
+                    <view class="name">隔壁老王</view>
+                    <view class="info mt10">产品经理</view>
+                </view>
+                <image class="phone" src="/images/icon-phone-green.png" alt=" " />
+            </view>
+            <view class="info-box-1 flex">
+                <image class="icon" src="/images/icon-phone.png" alt=" " />
+                <text class="info">15858547589</text>
+            </view>
+            <view class="info-box-1 flex">
+                <image class="icon" src="/images/icon-company.png" alt=" " />
+                <text class="info">福建华博教育科技股份有限公司</text>
+            </view>
+        </view>
+        <view class="contact-items">
+            <view class="flex pb30">
+                <image class="user-img" src="/images/user-img.jpg" alt=" " />
+                <view class="info-box">
+                    <view class="name">隔壁老王</view>
+                    <view class="info mt10">产品经理</view>
+                </view>
+                <image class="phone" src="/images/icon-phone-green.png" alt=" " />
+            </view>
+            <view class="info-box-1 flex">
+                <image class="icon" src="/images/icon-phone.png" alt=" " />
+                <text class="info">15858547589</text>
+            </view>
+            <view class="info-box-1 flex">
+                <image class="icon" src="/images/icon-company.png" alt=" " />
+                <text class="info">福建华博教育科技股份有限公司</text>
+            </view>
+        </view>
+        <view class="contact-items">
+            <view class="flex pb30">
+                <image class="user-img" src="/images/user-img.jpg" alt=" " />
+                <view class="info-box">
+                    <view class="name">隔壁老王</view>
+                    <view class="info mt10">产品经理</view>
+                </view>
+                <image class="phone" src="/images/icon-phone-green.png" alt=" " />
+            </view>
+            <view class="info-box-1 flex">
+                <image class="icon" src="/images/icon-phone.png" alt=" " />
+                <text class="info">15858547589</text>
+            </view>
+            <view class="info-box-1 flex">
+                <image class="icon" src="/images/icon-company.png" alt=" " />
+                <text class="info">福建华博教育科技股份有限公司</text>
+            </view>
+        </view>
+        <view class="contact-items">
+            <view class="flex pb30">
+                <image class="user-img" src="/images/user-img.jpg" alt=" " />
+                <view class="info-box">
+                    <view class="name">隔壁老王</view>
+                    <view class="info mt10">产品经理</view>
+                </view>
+                <image class="phone" src="/images/icon-phone-green.png" alt=" " />
+            </view>
+            <view class="info-box-1 flex">
+                <image class="icon" src="/images/icon-phone.png" alt=" " />
+                <text class="info">15858547589</text>
+            </view>
+            <view class="info-box-1 flex">
+                <image class="icon" src="/images/icon-company.png" alt=" " />
+                <text class="info">福建华博教育科技股份有限公司</text>
+            </view>
+        </view>
+    </view>
+</view>

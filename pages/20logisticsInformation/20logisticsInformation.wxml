@@ -1,0 +1,74 @@
+<!--物流信息-->
+<view class="contain">
+    <view class="logistics-information">
+        <view class="top-bg"></view>
+        <view class="information-bd">
+            <!--已签收-->
+            <image class="signed-img" src="/images/signed-img.png" alt=" " />
+            <view class="logistics-info-box">
+                <view class="logistics-logo-box">
+                    <!--快递logo-->
+                    <image class="logistics-logo" src="/images/user-img.jpg" alt=" " />
+                    <!--快递状态-已签收-->
+                    <image class="logistics-situation" src="/images/logistics-finish.png" alt=" " />
+                    <!--快递状态-未签收-->
+                    <!--<image class="logistics-situation" src="/images/logistics-ing.png" alt=" " />-->
+                </view>
+                <view class="logistics-name">
+                    <text class="name">中通速递</text>
+                    <text class="num">490428291403</text>
+                </view>
+            </view>
+            <view class="time tc">耗时1天22小时</view>
+            <view class="logistics-list">
+                <view class="items current">
+                    <!--已签收-->
+                    <view class="label"><image class="img" src="/images/logistics-end.png" alt=" " /></view>
+                    <!--未签收-->
+                    <!--<view class="label"><image class="img" src="/images/logistics-current.png" alt=" " /></view>-->
+                    <view class="items-bd">
+                        <view class="items-time">2018-04-22 13:37:32</view>
+                        <view class="items-info">【福州市】快件已在【福州金山】签收，签收人：拍照签收，感谢使用中通快递，期待再次为您服务！</view>
+                    </view>
+                </view>
+                <view class="items">
+                    <view class="label"></view>
+                    <view class="items-bd">
+                        <view class="items-time">2018-04-22 08:27:32</view>
+                        <view class="items-info">【福州市】快件已到达【福州金山】（<text>0591-88000899</text>），业务员：谭宝宝（<text>15856874582</text>）。</view>
+                    </view>
+                </view>
+                <view class="items">
+                    <view class="label"></view>
+                    <view class="items-bd">
+                        <view class="items-time">2018-04-22 08:27:32</view>
+                        <view class="items-info">【上海市】快件离开【上海市二部】发往【福州中转】。</view>
+                    </view>
+                </view>
+                <view class="items">
+                    <view class="label"></view>
+                    <view class="items-bd">
+                        <view class="items-time">2018-04-22 08:27:32</view>
+                        <view class="items-info">【上海市】快件离开【上海市二部】发往【福州中转】。</view>
+                    </view>
+                </view>
+                <view class="items">
+                    <view class="label"></view>
+                    <view class="items-bd">
+                        <view class="items-time">2018-04-22 08:27:32</view>
+                        <view class="items-info">【上海市】快件离开【上海市二部】发往【福州中转】。</view>
+                    </view>
+                </view>
+                <view class="items">
+                    <view class="label"></view>
+                    <view class="items-bd">
+                        <view class="items-time">2018-04-22 08:27:32</view>
+                        <view class="items-info">【上海市】快件离开【上海市二部】发往【福州中转】。</view>
+                    </view>
+                </view>
+            </view>
+            <view class="loading-tips"><text class="line"></text><text class="txt">已经到最底部啦</text><text class="line"></text></view>
+        </view>
+    </view>
+</view>
+

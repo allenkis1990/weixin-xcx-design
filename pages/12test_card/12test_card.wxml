@@ -1,0 +1,28 @@
+<!--测验-答题卡-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <view class="exam-panel-hd">
+            <view class="hd-info">这里是考试名称</view>
+        </view>
+        <view class="exam-panel exam-panel-1">
+            <view class="questions-card-panel clear">
+                <!--已答num-b，答对 num-g，答错num-r-->
+                <view class="items"><view href="" class="num num-b">1</view></view>
+                <view class="items"><view href="" class="num num-b">2</view></view>
+                <view class="items"><view href="" class="num num-b">3</view></view>
+                <view class="items"><view href="" class="num num-b">4</view></view>
+                <view class="items"><view href="" class="num num-b">5</view></view>
+                <view class="items"><view href="" class="num num-b">6</view></view>
+                <view class="items"><view href="" class="num">7</view></view>
+                <view class="items"><view href="" class="num">8</view></view>
+                <view class="items"><view href="" class="num">9</view></view>
+                <view class="items"><view href="" class="num">10</view></view>
+                <view class="items"> <view href="" class="num">11</view></view>
+                <view class="items"><view href="" class="num">12</view></view>
+            </view>
+        </view>
+    </view>
+    <view class="hb-tabbar">
+        <view class="hb-btn hb-btn-3">提交并查看结果</view>
+    </view>
+</view>

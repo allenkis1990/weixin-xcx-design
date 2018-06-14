@@ -1,0 +1,150 @@
+<!-- 面授班-近期培训 -->
+<view class="contain">
+    <!--tab-->
+    <view class="hb-tab-tit">
+        <view class="tab-tit-items current">
+            <text class="items-name">近期培训</text>
+            <image class="current-img" src="/images/tab-current-bg.jpg" />
+        </view>
+        <view class="tab-tit-items">
+            <text class="items-name">已结束培训</text>
+            <image class="current-img" src="/images/tab-current-bg.jpg" />
+        </view>
+    </view>
+    <!--/tab-->
+
+    <!--筛选-->
+    <view class="screening-bar">
+        <view class="screening-items">
+            <view class="items-tit">年度</view>
+        </view>
+        <view class="screening-items selected">
+            <view class="items-tit">专业</view>
+            <!--<view class="select-items-box">-->
+            <!--<view class="mask"></view>-->
+            <!--<view class="box-bd">-->
+            <!--<view class="select-item">全部</view>-->
+            <!--<view class="select-item">公需课</view>-->
+            <!--<view class="select-item">专业课</view>-->
+            <!--</view>-->
+            <!--<view class="btn-primary">确定</view>-->
+            <!--</view>-->
+        </view>
+        <view class="screening-items">
+            <view class="items-tit">培训结果</view>
+        </view>
+    </view>
+    <!--/筛选-->
+
+    <!--班级列表-->
+    <view class="hb-wrap-box">
+        <view class="hb-panel-1">
+            <!--<view class="p50">-->
+                <!--<view class="no-data-box">-->
+                    <!--<image class="no-data-img" src="/images/no-data-img.png" alt=" " />-->
+                    <!--<view class="no-data-txt">暂时还没有数据~</view>-->
+                <!--</view>-->
+            <!--</view>-->
+            <scroll-view class="hb-panel-bd">
+                <view class="hb-media-box">
+                    <view class="course-detail-hd">
+                        <view class="course-detail-img">
+                            <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                        </view>
+                        <view class="year-label-box">
+                            <image class="img" src="/images/year-label.png" alt=" " />
+                            <text class="year-label">2017</text>
+                        </view>
+                        <view class="status-label-box ing">培训中</view>
+                        <!--<view class="seal"><image class="img" src="/images/seal-pass-1.png" alt=" " /></view>-->
+                        <view class="course-info">
+                            <image class="mask" src="/images/course-img-mask.png" alt=" " />
+                            <view class="course-name">我是一个培训班的名称我是一个培训班的名称我是一个培训班的名称</view>
+                        </view>
+                    </view>
+                    <view class="hb-media-ft"><image class="icon" src="/images/icon-date.png" alt=" " /><text>培训时间：2018-08-08 至 2018-08-18</text></view>
+                </view>
+                <view class="hb-media-box">
+                    <view class="course-detail-hd">
+                        <view class="course-detail-img">
+                            <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                        </view>
+                        <view class="year-label-box">
+                            <image class="img" src="/images/year-label.png" alt=" " />
+                            <text class="year-label">2017</text>
+                        </view>
+                        <view class="status-label-box ing">培训中</view>
+                        <!--<view class="seal"><image class="img" src="/images/seal-pass-1.png" alt=" " /></view>-->
+                        <view class="course-info">
+                            <image class="mask" src="/images/course-img-mask.png" alt=" " />
+                            <view class="course-name">我是一个培训班的名称我是一个培训班的名称我是一个培训班的名称</view>
+                        </view>
+                    </view>
+                    <view class="hb-media-ft"><image class="icon" src="/images/icon-date.png" alt=" " /><text>培训时间：2018-08-08 至 2018-08-18</text></view>
+                </view>
+                <view class="hb-media-box">
+                    <view class="course-detail-hd">
+                        <view class="course-detail-img">
+                            <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                        </view>
+                        <view class="year-label-box">
+                            <image class="img" src="/images/year-label.png" alt=" " />
+                            <text class="year-label">2017</text>
+                        </view>
+                        <view class="status-label-box ing">培训中</view>
+                        <!--<view class="seal"><image class="img" src="/images/seal-pass-1.png" alt=" " /></view>-->
+                        <view class="course-info">
+                            <image class="mask" src="/images/course-img-mask.png" alt=" " />
+                            <view class="course-name">我是一个培训班的名称我是一个培训班的名称我是一个培训班的名称</view>
+                        </view>
+                    </view>
+                    <view class="hb-media-ft"><image class="icon" src="/images/icon-date.png" alt=" " /><text>培训时间：2018-08-08 至 2018-08-18</text></view>
+                </view>
+                <view class="hb-media-box">
+                    <view class="course-detail-hd">
+                        <view class="course-detail-img">
+                            <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                        </view>
+                        <view class="year-label-box">
+                            <image class="img" src="/images/year-label.png" alt=" " />
+                            <text class="year-label">2017</text>
+                        </view>
+                        <view class="status-label-box">未开始</view>
+                        <!--<view class="seal"><image class="img" src="/images/seal-pass-1.png" alt=" " /></view>-->
+                        <view class="course-info">
+                            <image class="mask" src="/images/course-img-mask.png" alt=" " />
+                            <view class="course-name">我是一个培训班的名称</view>
+                        </view>
+                    </view>
+                    <view class="hb-media-ft"><image class="icon" src="/images/icon-date.png" alt=" " /><text>培训时间：2018-08-08 至 2018-08-18</text></view>
+                </view>
+                <view class="hb-media-box">
+                    <view class="course-detail-hd">
+                        <view class="course-detail-img">
+                            <image class="img"  mode="widthFix" src="/images/course-img.jpg" alt=" " />
+                        </view>
+                        <view class="year-label-box">
+                            <image class="img" src="/images/year-label.png" alt=" " />
+                            <text class="year-label">2017</text>
+                        </view>
+                        <view class="status-label-box">未开始</view>
+                        <!--<view class="seal"><image class="img" src="/images/seal-pass-1.png" alt=" " /></view>-->
+                        <view class="course-info">
+                            <image class="mask" src="/images/course-img-mask.png" alt=" " />
+                            <view class="course-name">我是一个培训班的名称</view>
+                        </view>
+                    </view>
+                    <view class="hb-media-ft"><image class="icon" src="/images/icon-date.png" alt=" " /><text>培训时间：2018-08-08 至 2018-08-18</text></view>
+                </view>
+                <view class="loading-tips"><text class="line"></text><text class="txt">已经到最底部啦</text><text class="line"></text></view>
+            </scroll-view>
+        </view>
+    </view>
+    <!--/班级列表-->
+
+    <!--返回顶部-->
+    <view class="layer-box">
+        <image class="scan-code" src="/images/scan-code.png" alt=" " />
+    </view>
+    <!--/返回顶部-->
+</view>

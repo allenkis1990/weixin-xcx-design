@@ -1,0 +1,110 @@
+<!--发票配送-->
+<view class="contain hb-box">
+    <view class="hb-box-bd">
+        <view class="weui-panel hb-panel bor-b20 hb-panel-2">
+            <view class="weui-panel__hd">开票方式</view>
+            <view class="weui-cells">
+                <view class="weui-cell">
+                    <view class="weui-cell__bd">
+                        <view class="hb-btn-s mr20 current">自取</view>
+                        <view class="hb-btn-s mr20">邮寄</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="weui-panel hb-panel hb-panel-3">
+            <view class="weui-cells bor-b20">
+                <view class="weui-cell flex">
+                    <view class="hb-form">
+                        <!--<image class="img" src="/images/radio.png" alt=" " />-->
+                        <image class="img" src="/images/radio-checked.png" alt=" " />
+                    </view>
+                    <view class="ml20">自取点1</view>
+                </view>
+                <view class="hb-info-cells">
+                    <view class="hb-info-cell">
+                        <view class="hb-info-cell__bd"><text>自取地点</text></view>
+                        <view class="hb-info-cell__ft">福建省福州市鼓楼区工业路海峡技术转移中心13楼</view>
+                    </view>
+                    <view class="hb-info-cell">
+                        <view class="hb-info-cell__bd"><text>领取时间</text></view>
+                        <view class="hb-info-cell__ft">2017年12月12日 9:00 至 2017年12月12日 17:00</view>
+                    </view>
+                    <view class="hb-info-cell">
+                        <view class="hb-info-cell__bd"><text>备注</text></view>
+                        <view class="hb-info-cell__ft">备注备注备注</view>
+                    </view>
+                </view>
+            </view>
+            <view class="weui-cells bor-b20">
+                <view class="weui-cell flex">
+                    <view class="hb-form">
+                        <image class="img" src="/images/radio.png" alt=" " />
+                        <!--<image class="img" src="/images/radio-checked.png" alt=" " />-->
+                    </view>
+                    <view class="ml20">自取点2</view>
+                </view>
+                <view class="hb-info-cells">
+                    <view class="hb-info-cell">
+                        <view class="hb-info-cell__bd"><text>自取地点</text></view>
+                        <view class="hb-info-cell__ft">福建省福州市鼓楼区工业路海峡技术转移中心13楼</view>
+                    </view>
+                    <view class="hb-info-cell">
+                        <view class="hb-info-cell__bd"><text>领取时间</text></view>
+                        <view class="hb-info-cell__ft">2017年12月12日 9:00 至 2017年12月12日 17:00</view>
+                    </view>
+                    <view class="hb-info-cell">
+                        <view class="hb-info-cell__bd"><text>备注</text></view>
+                        <view class="hb-info-cell__ft">备注备注备注</view>
+                    </view>
+                </view>
+            </view>
+            
+            <!--邮寄-->
+            <view class="weui-panel hb-panel">
+                <view class="weui-cells weui-cells_form">
+                    <view class="weui-cell">
+                        <view class="weui-cell__hd"><view class="weui-label"><text class="star">*</text>姓名</view></view>
+                        <view class="weui-cell__bd">
+                            <input class="weui-input" type="text" placeholder="请输入" />
+                        </view>
+                    </view>
+                    <view class="weui-cell">
+                        <view class="weui-cell__hd"><view class="weui-label"><text class="star">*</text>手机号</view></view>
+                        <view class="weui-cell__bd">
+                            <input class="weui-input" type="text" placeholder="请输入" />
+                        </view>
+                    </view>
+                    <view class="weui-cell weui-cell_access">
+                        <view class="weui-cell__hd"><view class="weui-label"><text class="star">*</text>收件地区</view></view>
+                        <view class="weui-cell__bd">
+                            <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+                                <view class="picker c6">
+                                    请选择
+                                </view>
+                            </picker>
+                        </view>
+                        <view class="weui-cell__ft"></view>
+                    </view>
+                    <view class="weui-cell weui-cell-start">
+                        <view class="weui-cell__hd"><view class="weui-label"><text class="star">*</text>详细地址</view></view>
+                        <view class="weui-cell__bd">
+                            <textarea class="weui-textarea" placeholder="请输入文本"></textarea>
+                        </view>
+                    </view>
+                    <view class="weui-cell">
+                        <view class="weui-cell__hd"><view class="weui-label"><text class="star">*</text>邮政编码</view></view>
+                        <view class="weui-cell__bd">
+                            <input class="weui-input" type="text" placeholder="请输入" />
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <!--/邮寄-->
+        </view>
+    </view>
+
+    <view class="hb-tabbar">
+        <view class="hb-btn hb-btn-3">保 存</view>
+    </view>
+</view>
